@@ -1,0 +1,8 @@
+proxies:
+- cipher: aes-128-gcm
+  name: HONGKONG TUNNEL | 01 0.8X
+  password: f0b3d641-ffef-4043-9947-7c154bbc9dc9
+  port: 29470
+  server: baby.888888.wtf
+  type: ss
+  udp: true
