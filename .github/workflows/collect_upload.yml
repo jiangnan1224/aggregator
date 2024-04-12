@@ -27,7 +27,8 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config --global user.name ${{ secrets.name}}
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
 
     - name: Commit and push changes
       run: |
