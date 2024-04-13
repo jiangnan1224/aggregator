@@ -21,9 +21,17 @@ def update_clash_config(original_config_path, updated_config_path):
     # 读取现有的Clash配置
     config = read_config(original_config_path)
 
-    # 从现有配置中提取代理列表
-    proxy_names = [proxy['name'] for proxy in config.get('proxies', [])]
+    proxies = []
+    proxy_names = []
+    # 从现有配置中提取代理列表,并去重
+    for proxy in config.get('proxies', []):
+        if (proxy['name'] not in proxy_names) :
+            proxy_names.append(proxy['name'])
+            proxies.append(proxy)
     proxy_count = len(proxy_names)
+
+    # 写入去重后的代理列表
+    config['proxies'] = proxies
 
     # 构建proxy-groups
     config['proxy-groups'] = [
