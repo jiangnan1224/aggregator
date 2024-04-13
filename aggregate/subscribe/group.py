@@ -93,6 +93,8 @@ def update_clash_config(original_config_path, updated_config_path):
 
 def push_to_deer(key):
     now = datetime.datetime.now()
+    eight_hours = datetime.timedelta(hours=8)
+    result_time = now + eight_hours
     formatted_now = now.strftime("%Y-%m-%d %H:%M:%S")
 
     title = "## Github机场订阅更新信息"
