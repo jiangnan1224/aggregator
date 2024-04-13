@@ -26,6 +26,7 @@ jobs:
     - name: Add group info
       run: |
         cd aggregate
+        python -u subscribe/collect.py -s  
         python subscribe/group.py ${{ secrets.PUSH_DEER_SECRET }}
 
     - name: Configure Git
