@@ -1,5 +1,5 @@
 proxies:
-- name: 香港中继-TROJAN
+- name: "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31001
   server: sz.zj.my.1.76po.com
@@ -7,7 +7,7 @@ proxies:
   sni: hk-01.v4vip.top
   type: trojan
   udp: true
-- name: 香港中继-TROJAN
+- name: "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31002
   server: sz.zj.my.1.76po.com
@@ -15,7 +15,7 @@ proxies:
   sni: hk-02.v4vip.top
   type: trojan
   udp: true
-- name: 香港中继-TROJAN
+- name: "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31003
   server: sz.zj.my.1.76po.com
@@ -23,7 +23,7 @@ proxies:
   sni: hk-03.v4vip.top
   type: trojan
   udp: true
-- name: 香港中继-TROJAN
+- name: "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31004
   server: sz.zj.my.1.76po.com
@@ -31,7 +31,7 @@ proxies:
   sni: hk-04.v4vip.top
   type: trojan
   udp: true
-- name: 美国中继-TROJAN
+- name: "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31006
   server: sz.zj.my.1.76po.com
@@ -39,7 +39,7 @@ proxies:
   sni: us-01.v4vip.top
   type: trojan
   udp: true
-- name: 美国中继-TROJAN
+- name: "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31007
   server: sz.zj.my.1.76po.com
@@ -47,7 +47,7 @@ proxies:
   sni: us-02.v4vip.top
   type: trojan
   udp: true
-- name: 美国中继-TROJAN
+- name: "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31008
   server: sz.zj.my.1.76po.com
@@ -55,7 +55,7 @@ proxies:
   sni: us-03.v4vip.top
   type: trojan
   udp: true
-- name: 美国中继-TROJAN
+- name: "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31009
   server: sz.zj.my.1.76po.com
@@ -63,7 +63,7 @@ proxies:
   sni: us-04.v4vip.top
   type: trojan
   udp: true
-- name: 新加坡中继-TROJAN
+- name: "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31011
   server: sz.zj.my.1.76po.com
@@ -71,7 +71,7 @@ proxies:
   sni: sg-01.v4vip.top
   type: trojan
   udp: true
-- name: 新加坡中继-TROJAN
+- name: "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31012
   server: sz.zj.my.1.76po.com
@@ -79,7 +79,7 @@ proxies:
   sni: sg-02.v4vip.top
   type: trojan
   udp: true
-- name: 日本中继-TROJAN
+- name: "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31013
   server: sz.zj.my.1.76po.com
@@ -87,7 +87,7 @@ proxies:
   sni: jp-01.v4vip.top
   type: trojan
   udp: true
-- name: 日本中继-TROJAN
+- name: "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31014
   server: sz.zj.my.1.76po.com
@@ -95,7 +95,7 @@ proxies:
   sni: jp-02.v4vip.top
   type: trojan
   udp: true
-- name: 加拿大中继-TROJAN
+- name: "\u52A0\u62FF\u5927\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31015
   server: sz.zj.my.1.76po.com
@@ -103,7 +103,7 @@ proxies:
   sni: ca-01.v4vip.top
   type: trojan
   udp: true
-- name: 英国中继-TROJAN
+- name: "\u82F1\u56FD\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31016
   server: sz.zj.my.1.76po.com
@@ -111,7 +111,7 @@ proxies:
   sni: gb-01.v4vip.top
   type: trojan
   udp: true
-- name: 德国中继-TROJAN
+- name: "\u5FB7\u56FD\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31017
   server: sz.zj.my.1.76po.com
@@ -119,7 +119,7 @@ proxies:
   sni: de-01.v4vip.top
   type: trojan
   udp: true
-- name: 印度中继-TROJAN
+- name: "\u5370\u5EA6\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31018
   server: sz.zj.my.1.76po.com
@@ -127,7 +127,7 @@ proxies:
   sni: in-01.v4vip.top
   type: trojan
   udp: true
-- name: 澳大利亚中继-TROJAN
+- name: "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-TROJAN"
   password: 892d253e-055d-4a9e-8d50-3d345ae8b444
   port: 31019
   server: sz.zj.my.1.76po.com
@@ -137,7 +137,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 香港中继-V2RAY
+  name: "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
   port: 33001
   server: sz.zj.my.1.76po.com
   servername: hk-01.v4vip.top
@@ -148,7 +148,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 香港中继-V2RAY
+  name: "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
   port: 33002
   server: sz.zj.my.1.76po.com
   servername: hk-02.v4vip.top
@@ -159,7 +159,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 香港中继-V2RAY
+  name: "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
   port: 33003
   server: sz.zj.my.1.76po.com
   servername: hk-03.v4vip.top
@@ -170,7 +170,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 香港中继-V2RAY
+  name: "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
   port: 33004
   server: sz.zj.my.1.76po.com
   servername: hk-04.v4vip.top
@@ -181,7 +181,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 香港中继-V2RAY
+  name: "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
   port: 33005
   server: sz.zj.my.1.76po.com
   servername: hk-04.v4vip.top
@@ -192,7 +192,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 美国中继-V2RAY
+  name: "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
   port: 33006
   server: sz.zj.my.1.76po.com
   servername: us-01.v4vip.top
@@ -203,7 +203,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 美国中继-V2RAY
+  name: "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
   port: 33007
   server: sz.zj.my.1.76po.com
   servername: us-02.v4vip.top
@@ -214,7 +214,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 美国中继-V2RAY
+  name: "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
   port: 33008
   server: sz.zj.my.1.76po.com
   servername: us-03.v4vip.top
@@ -225,7 +225,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 美国中继-V2RAY
+  name: "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
   port: 33009
   server: sz.zj.my.1.76po.com
   servername: us-04.v4vip.top
@@ -236,7 +236,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 美国中继-V2RAY
+  name: "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
   port: 33010
   server: sz.zj.my.1.76po.com
   servername: us-04.v4vip.top
@@ -247,7 +247,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 新加坡中继-V2RAY
+  name: "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
   port: 33011
   server: sz.zj.my.1.76po.com
   servername: sg-01.v4vip.top
@@ -258,7 +258,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 新加坡中继-V2RAY
+  name: "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
   port: 33012
   server: sz.zj.my.1.76po.com
   servername: sg-02.v4vip.top
@@ -269,7 +269,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 日本中继-V2RAY
+  name: "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
   port: 33013
   server: sz.zj.my.1.76po.com
   servername: jp-01.v4vip.top
@@ -280,7 +280,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 日本中继-V2RAY
+  name: "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
   port: 33014
   server: sz.zj.my.1.76po.com
   servername: jp-02.v4vip.top
@@ -291,7 +291,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 加拿大中继-V2RAY
+  name: "\u52A0\u62FF\u5927\u4E2D\u7EE7-V2RAY"
   port: 33015
   server: sz.zj.my.1.76po.com
   servername: ca-01.v4vip.top
@@ -302,7 +302,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 英国中继-V2RAY
+  name: "\u82F1\u56FD\u4E2D\u7EE7-V2RAY"
   port: 33016
   server: sz.zj.my.1.76po.com
   servername: gb-01.v4vip.top
@@ -313,7 +313,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 德国中继-V2RAY
+  name: "\u5FB7\u56FD\u4E2D\u7EE7-V2RAY"
   port: 33017
   server: sz.zj.my.1.76po.com
   servername: de-01.v4vip.top
@@ -324,7 +324,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 印度中继-V2RAY
+  name: "\u5370\u5EA6\u4E2D\u7EE7-V2RAY"
   port: 33018
   server: sz.zj.my.1.76po.com
   servername: in-01.v4vip.top
@@ -335,7 +335,7 @@ proxies:
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - alterId: 0
   cipher: auto
-  name: 澳大利亚中继-V2RAY
+  name: "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-V2RAY"
   port: 33019
   server: sz.zj.my.1.76po.com
   servername: au-01.v4vip.top
@@ -345,177 +345,340 @@ proxies:
   udp: true
   uuid: 892d253e-055d-4a9e-8d50-3d345ae8b444
 - cipher: aes-256-gcm
-  name: 日本03|X2
+  name: "\u65E5\u672C03|X2"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 27123
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 美国LA03|X1
+  name: "\u7F8E\u56FDLA03|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 40330
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 美国洛杉矶03|X1
+  name: "\u7F8E\u56FD\u6D1B\u6749\u77F603|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 40972
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 美国拉斯维加斯03|X1
+  name: "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 37426
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 新加坡03|X2
+  name: "\u65B0\u52A0\u576103|X2"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 18109
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 英国伦敦03|1.5X
+  name: "\u82F1\u56FD\u4F26\u656603|1.5X"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 49192
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 香港03|X2
+  name: "\u9999\u6E2F03|X2"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 24868
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 台湾03|X2
+  name: "\u53F0\u6E7E03|X2"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 13852
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 美国纽约03|X1
+  name: "\u7F8E\u56FD\u7EBD\u7EA603|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 35908
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 美国LA03U|X1
+  name: "\u7F8E\u56FDLA03U|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 12119
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 美国洛杉矶03U|X1
+  name: "\u7F8E\u56FD\u6D1B\u6749\u77F603U|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 41646
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 新加坡03U|X2
+  name: "\u65B0\u52A0\u576103U|X2"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 15535
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 英国伦敦03U1.5X
+  name: "\u82F1\u56FD\u4F26\u656603U1.5X"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 29371
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 香港03U|X2
+  name: "\u9999\u6E2F03U|X2"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 32122
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 日本03U|X1.5
+  name: "\u65E5\u672C03U|X1.5"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 46202
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 台湾03U|X2
+  name: "\u53F0\u6E7E03U|X2"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 24160
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 美国纽约03U|X1
+  name: "\u7F8E\u56FD\u7EBD\u7EA603U|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 33260
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 俄罗斯03U|X1
+  name: "\u4FC4\u7F57\u65AF03U|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 26438
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 韩国03M|X2
+  name: "\u97E9\u56FD03M|X2"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 15970
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 菲律宾03M|X1.5
+  name: "\u83F2\u5F8B\u5BBE03M|X1.5"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 13464
   server: cmss.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 香港03M|X02
+  name: "\u9999\u6E2F03M|X02"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 19862
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 欧洲阿姆斯特丹03|X1.5
+  name: "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903|X1.5"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 11486
   server: cmsswfw.yushen.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 美国拉斯维加斯03U|X1
+  name: "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03U|X1"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 16634
   server: tjlt.yushen.buzz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 防失联发布站
+  name: "\u9632\u5931\u8054\u53D1\u5E03\u7AD9"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 80
   server: rymfq.github.io
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 欧洲阿姆斯特丹03U|X1.5
+  name: "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903U|X1.5"
   password: ce7e0b1e-b204-440b-a776-d860e565965d
   port: 18656
   server: tjlt.yushen.buzz
   type: ss
   udp: true
+proxy-groups:
+- interval: 300
+  name: Auto
+  proxies:
+  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
+  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
+  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
+  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
+  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
+  - "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
+  - "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
+  - "\u52A0\u62FF\u5927\u4E2D\u7EE7-TROJAN"
+  - "\u82F1\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u5FB7\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u5370\u5EA6\u4E2D\u7EE7-TROJAN"
+  - "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-TROJAN"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
+  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
+  - "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
+  - "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
+  - "\u52A0\u62FF\u5927\u4E2D\u7EE7-V2RAY"
+  - "\u82F1\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u5FB7\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u5370\u5EA6\u4E2D\u7EE7-V2RAY"
+  - "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-V2RAY"
+  - "\u65E5\u672C03|X2"
+  - "\u7F8E\u56FDLA03|X1"
+  - "\u7F8E\u56FD\u6D1B\u6749\u77F603|X1"
+  - "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03|X1"
+  - "\u65B0\u52A0\u576103|X2"
+  - "\u82F1\u56FD\u4F26\u656603|1.5X"
+  - "\u9999\u6E2F03|X2"
+  - "\u53F0\u6E7E03|X2"
+  - "\u7F8E\u56FD\u7EBD\u7EA603|X1"
+  - "\u7F8E\u56FDLA03U|X1"
+  - "\u7F8E\u56FD\u6D1B\u6749\u77F603U|X1"
+  - "\u65B0\u52A0\u576103U|X2"
+  - "\u82F1\u56FD\u4F26\u656603U1.5X"
+  - "\u9999\u6E2F03U|X2"
+  - "\u65E5\u672C03U|X1.5"
+  - "\u53F0\u6E7E03U|X2"
+  - "\u7F8E\u56FD\u7EBD\u7EA603U|X1"
+  - "\u4FC4\u7F57\u65AF03U|X1"
+  - "\u97E9\u56FD03M|X2"
+  - "\u83F2\u5F8B\u5BBE03M|X1.5"
+  - "\u9999\u6E2F03M|X02"
+  - "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903|X1.5"
+  - "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03U|X1"
+  - "\u9632\u5931\u8054\u53D1\u5E03\u7AD9"
+  - "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903U|X1.5"
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- name: Proxy
+  proxies:
+  - Auto
+  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
+  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
+  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
+  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
+  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
+  - "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
+  - "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
+  - "\u52A0\u62FF\u5927\u4E2D\u7EE7-TROJAN"
+  - "\u82F1\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u5FB7\u56FD\u4E2D\u7EE7-TROJAN"
+  - "\u5370\u5EA6\u4E2D\u7EE7-TROJAN"
+  - "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-TROJAN"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
+  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
+  - "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
+  - "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
+  - "\u52A0\u62FF\u5927\u4E2D\u7EE7-V2RAY"
+  - "\u82F1\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u5FB7\u56FD\u4E2D\u7EE7-V2RAY"
+  - "\u5370\u5EA6\u4E2D\u7EE7-V2RAY"
+  - "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-V2RAY"
+  - "\u65E5\u672C03|X2"
+  - "\u7F8E\u56FDLA03|X1"
+  - "\u7F8E\u56FD\u6D1B\u6749\u77F603|X1"
+  - "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03|X1"
+  - "\u65B0\u52A0\u576103|X2"
+  - "\u82F1\u56FD\u4F26\u656603|1.5X"
+  - "\u9999\u6E2F03|X2"
+  - "\u53F0\u6E7E03|X2"
+  - "\u7F8E\u56FD\u7EBD\u7EA603|X1"
+  - "\u7F8E\u56FDLA03U|X1"
+  - "\u7F8E\u56FD\u6D1B\u6749\u77F603U|X1"
+  - "\u65B0\u52A0\u576103U|X2"
+  - "\u82F1\u56FD\u4F26\u656603U1.5X"
+  - "\u9999\u6E2F03U|X2"
+  - "\u65E5\u672C03U|X1.5"
+  - "\u53F0\u6E7E03U|X2"
+  - "\u7F8E\u56FD\u7EBD\u7EA603U|X1"
+  - "\u4FC4\u7F57\u65AF03U|X1"
+  - "\u97E9\u56FD03M|X2"
+  - "\u83F2\u5F8B\u5BBE03M|X1.5"
+  - "\u9999\u6E2F03M|X02"
+  - "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903|X1.5"
+  - "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03U|X1"
+  - "\u9632\u5931\u8054\u53D1\u5E03\u7AD9"
+  - "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903U|X1.5"
+  - DIRECT
+  type: select
+- name: Domestic
+  proxies:
+  - DIRECT
+  - Proxy
+  type: select
+- name: Others
+  proxies:
+  - Proxy
+  - DIRECT
+  type: select
+rules:
+- DOMAIN-SUFFIX,ad.com,REJECT
+- DOMAIN-SUFFIX,ads.com,REJECT
+- DOMAIN-SUFFIX,netflix.com,Proxy
+- DOMAIN-SUFFIX,bbc.co.uk,Proxy
+- DOMAIN-SUFFIX,hulu.com,Proxy
+- DOMAIN-SUFFIX,youtube.com,Proxy
+- DOMAIN-SUFFIX,youku.com,Domestic
+- DOMAIN-SUFFIX,iqiyi.com,Domestic
+- DOMAIN-SUFFIX,bilibili.com,Domestic
+- DOMAIN-SUFFIX,facebook.com,Proxy
+- DOMAIN-SUFFIX,twitter.com,Proxy
+- DOMAIN-SUFFIX,instagram.com,Proxy
+- DOMAIN-SUFFIX,eu,org,Proxy
+- DOMAIN-SUFFIX,google.com,Proxy
+- DOMAIN-SUFFIX,github.com,Proxy
+- DOMAIN-SUFFIX,amazon.com,Proxy
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,-cn,DIRECT
+- MATCH,Others
