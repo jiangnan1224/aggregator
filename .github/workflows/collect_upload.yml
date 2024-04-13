@@ -20,13 +20,13 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip3 install pyYAML requests tqdm
+        pip3 install pyYAML requests tqdm pypushdeer
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Execute script to generate file
+    - name: Add group info
       run: |
         cd aggregate
-        python -u subscribe/collect.py -s  # 确保这里的路径正确
+        python subscribe/group.py ${{ secrets.PUSH_DEER_SECRET }}
 
     - name: Configure Git
       run: |
