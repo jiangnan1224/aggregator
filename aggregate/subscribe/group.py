@@ -80,7 +80,7 @@ def update_clash_config(original_config_path, updated_config_path):
         'DOMAIN-SUFFIX,facebook.com,Proxy',
         'DOMAIN-SUFFIX,twitter.com,Proxy',
         'DOMAIN-SUFFIX,instagram.com,Proxy',
-        'DOMAIN-SUFFIX,eu,org,Proxy',
+        'DOMAIN-SUFFIX,eu.org,Proxy',
 
         # 科技公司
         'DOMAIN-SUFFIX,google.com,Proxy',
