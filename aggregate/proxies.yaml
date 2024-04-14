@@ -9,7 +9,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a5735907-4743-45f7-91bf-fd77d3d34b3c
+  uuid: 65571669-7a20-4bf6-9ef4-1058201cd829
   ws-opts:
     headers:
       Host: au01.appleid.bf
@@ -24,7 +24,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a5735907-4743-45f7-91bf-fd77d3d34b3c
+  uuid: 65571669-7a20-4bf6-9ef4-1058201cd829
   ws-opts:
     headers:
       Host: au01.appleid.bf
@@ -39,7 +39,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a5735907-4743-45f7-91bf-fd77d3d34b3c
+  uuid: 65571669-7a20-4bf6-9ef4-1058201cd829
   ws-opts:
     headers:
       Host: de01.appleid.bf
@@ -54,7 +54,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a5735907-4743-45f7-91bf-fd77d3d34b3c
+  uuid: 65571669-7a20-4bf6-9ef4-1058201cd829
   ws-opts:
     headers:
       Host: de01.appleid.bf
@@ -69,7 +69,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a5735907-4743-45f7-91bf-fd77d3d34b3c
+  uuid: 65571669-7a20-4bf6-9ef4-1058201cd829
   ws-opts:
     headers:
       Host: kr01.appleid.bf
@@ -84,19 +84,50 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a5735907-4743-45f7-91bf-fd77d3d34b3c
+  uuid: 65571669-7a20-4bf6-9ef4-1058201cd829
   ws-opts:
     headers:
       Host: kr01.appleid.bf
     path: /ws?ed=2048
-- name: "TW-\u677F\u68652-2"
-  password: 9c671481-2599-41ce-8e93-4743799f8203
-  port: 19489
-  server: b22.ntbq.dynu.net
-  skip-cert-verify: true
-  sni: b22.ntbq.dynu.net
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\u8BD5\u7528\u8282\u70B9| \u9999\u6E2F"
+  password: 8055132c-e98b-48cc-bdec-e03ab7d19733
+  port: 27891
+  server: gg.efnwgood.top
+  type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u8BD5\u7528\u8282\u70B9| \u65B0\u52A0\u5761"
+  password: 8055132c-e98b-48cc-bdec-e03ab7d19733
+  port: 28894
+  server: gran.efnwgood.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u8BD5\u7528\u8282\u70B9| \u7F8E\u56FD"
+  network: ws
+  port: 8880
+  server: 1.efnwgood.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8055132c-e98b-48cc-bdec-e03ab7d19733
+  ws-opts:
+    headers:
+      Host: buyvmus.efnwgood.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD01-\u6D41\u5A92\u4F53\u670D\u52A1\u5668 \u901F\u7387100M"
+  port: 10000
+  server: 23.224.152.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a5bbbf36-4e78-48ba-8916-52f00248c1d0
 proxy-groups:
 - interval: 300
   name: Auto
@@ -107,7 +138,10 @@ proxy-groups:
   - "\u5FB7\u56FD 02"
   - "\u97E9\u56FD 01"
   - "\u97E9\u56FD 02"
-  - "TW-\u677F\u68652-2"
+  - "\u8BD5\u7528\u8282\u70B9| \u9999\u6E2F"
+  - "\u8BD5\u7528\u8282\u70B9| \u65B0\u52A0\u5761"
+  - "\u8BD5\u7528\u8282\u70B9| \u7F8E\u56FD"
+  - "\u7F8E\u56FD01-\u6D41\u5A92\u4F53\u670D\u52A1\u5668 \u901F\u7387100M"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: Proxy
@@ -119,7 +153,10 @@ proxy-groups:
   - "\u5FB7\u56FD 02"
   - "\u97E9\u56FD 01"
   - "\u97E9\u56FD 02"
-  - "TW-\u677F\u68652-2"
+  - "\u8BD5\u7528\u8282\u70B9| \u9999\u6E2F"
+  - "\u8BD5\u7528\u8282\u70B9| \u65B0\u52A0\u5761"
+  - "\u8BD5\u7528\u8282\u70B9| \u7F8E\u56FD"
+  - "\u7F8E\u56FD01-\u6D41\u5A92\u4F53\u670D\u52A1\u5668 \u901F\u7387100M"
   - DIRECT
   type: select
 - name: Domestic
@@ -145,7 +182,7 @@ rules:
 - DOMAIN-SUFFIX,facebook.com,Proxy
 - DOMAIN-SUFFIX,twitter.com,Proxy
 - DOMAIN-SUFFIX,instagram.com,Proxy
-- DOMAIN-SUFFIX,eu,org,Proxy
+- DOMAIN-SUFFIX,eu.org,Proxy
 - DOMAIN-SUFFIX,google.com,Proxy
 - DOMAIN-SUFFIX,github.com,Proxy
 - DOMAIN-SUFFIX,amazon.com,Proxy
