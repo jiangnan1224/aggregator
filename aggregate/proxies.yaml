@@ -1,1691 +1,595 @@
 proxies:
-- cipher: aes-256-gcm
-  name: "\u65E5\u672C03|X2"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 27123
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FDLA03|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 40330
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD\u6D1B\u6749\u77F603|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 40972
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 37426
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u65B0\u52A0\u576103|X2"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 18109
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u82F1\u56FD\u4F26\u656603|1.5X"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 49192
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u9999\u6E2F03|X2"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 24868
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u53F0\u6E7E03|X2"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 13852
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD\u7EBD\u7EA603|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 35908
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FDLA03U|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 12119
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD\u6D1B\u6749\u77F603U|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 41646
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u65B0\u52A0\u576103U|X2"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 15535
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u82F1\u56FD\u4F26\u656603U1.5X"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 29371
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u9999\u6E2F03U|X2"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 32122
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u65E5\u672C03U|X1.5"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 46202
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u53F0\u6E7E03U|X2"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 24160
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD\u7EBD\u7EA603U|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 33260
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u4FC4\u7F57\u65AF03U|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 26438
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u97E9\u56FD03M|X2"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 15970
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u83F2\u5F8B\u5BBE03M|X1.5"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 13464
-  server: cmss.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u9999\u6E2F03M|X02"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 19862
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903|X1.5"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 11486
-  server: cmsswfw.yushen.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03U|X1"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 16634
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u9632\u5931\u8054\u53D1\u5E03\u7AD9"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD1"
+  network: ws
   port: 80
-  server: rymfq.github.io
+  server: 104.19.173.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f1f2fb-5e88-450d-917f-2a2f73900d77
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD2"
+  network: ws
+  port: 80
+  server: whatismyipaddress.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f1f2fb-5e88-450d-917f-2a2f73900d77
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD3"
+  network: ws
+  port: 80
+  server: fbi.gov
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f1f2fb-5e88-450d-917f-2a2f73900d77
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD4"
+  network: ws
+  port: 80
+  server: www.pcmag.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f1f2fb-5e88-450d-917f-2a2f73900d77
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD5"
+  network: ws
+  port: 80
+  server: www.digitalocean.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f1f2fb-5e88-450d-917f-2a2f73900d77
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD6"
+  network: ws
+  port: 80
+  server: www.glassdoor.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f1f2fb-5e88-450d-917f-2a2f73900d77
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD7"
+  network: ws
+  port: 80
+  server: www.udemy.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f1f2fb-5e88-450d-917f-2a2f73900d77
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FDIPV6"
+  network: ws
+  port: 80
+  server: 2605:6400:20:124c:983b:d3a1:3143:f286
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f1f2fb-5e88-450d-917f-2a2f73900d77
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u60A8\u7684ISP \u7F8E\u56FD"
+  network: ws
+  port: 2086
+  server: cf-test.q5wrff7jtkdg23.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: cf-test.q5wrff7jtkdg23.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u6D1B\u6749\u77F6-\u76F4\u8FDEA"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: us-ca.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u6D1B\u6749\u77F6-\u76F4\u8FDEB"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: la-b.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7EBD\u7EA6-\u76F4\u8FDEA"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: nyc1.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7EBD\u7EA6-\u76F4\u8FDEB"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: nyc2.gas51qwrhmzz8.top
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\u65B0\u52A0\u5761\u9AD8\u901F\xD75"
+  password: 54a5c555-7281-4598-9ad0-814371b5b518
+  port: 39822
+  server: dxshmwy.domiw.com
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u65B0\u52A0\u5761-\u76F4\u8FDEA"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: sg1.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u65B0\u52A0\u5761-\u76F4\u8FDEB"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: sgv7.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u65B0\u52A0\u5761-\u76F4\u8FDEC"
+  network: ws
+  port: 2082
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u9999\u6E2F-\u76F4\u8FDE"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: hkv16.gas51qwrhmzz8.top
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\u4E1C\u4EAC\u9AD8\u901F\xD75"
+  password: 54a5c555-7281-4598-9ad0-814371b5b518
+  port: 52020
+  server: dxshmwy.domiw.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u4E1C\u4EAC-\u76F4\u8FDEA"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: jpv12.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u4E1C\u4EAC-\u76F4\u8FDEB"
+  network: ws
+  port: 2086
+  server: cf-test.gas51qwrhmzz8.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54a5c555-7281-4598-9ad0-814371b5b518
+  ws-opts:
+    headers:
+      Host: jpv13.gas51qwrhmzz8.top
+    path: /
 - cipher: aes-256-gcm
-  name: "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903U|X1.5"
-  password: 755f5644-e126-45e3-baf1-19b8e0f383f3
-  port: 18656
-  server: tjlt.yushen.buzz
-  type: ss
-  udp: true
-- name: "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31001
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: hk-01.v4vip.top
-  type: trojan
-  udp: true
-- name: "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31006
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: us-01.v4vip.top
-  type: trojan
-  udp: true
-- name: "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31011
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: sg-01.v4vip.top
-  type: trojan
-  udp: true
-- name: "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31013
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: jp-01.v4vip.top
-  type: trojan
-  udp: true
-- name: "\u52A0\u62FF\u5927\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31015
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: ca-01.v4vip.top
-  type: trojan
-  udp: true
-- name: "\u82F1\u56FD\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31016
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: gb-01.v4vip.top
-  type: trojan
-  udp: true
-- name: "\u5FB7\u56FD\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31017
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: de-01.v4vip.top
-  type: trojan
-  udp: true
-- name: "\u5370\u5EA6\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31018
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: in-01.v4vip.top
-  type: trojan
-  udp: true
-- name: "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-TROJAN"
-  password: d31ecf27-7387-4e10-b0b7-1a47b1701400
-  port: 31019
-  server: sz.zj.my.1.76po.com
-  skip-cert-verify: true
-  sni: au-01.v4vip.top
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
-  port: 33001
-  server: sz.zj.my.1.76po.com
-  servername: hk-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
-  port: 33006
-  server: sz.zj.my.1.76po.com
-  servername: us-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- alterId: 0
-  cipher: auto
-  name: "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
-  port: 33011
-  server: sz.zj.my.1.76po.com
-  servername: sg-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- alterId: 0
-  cipher: auto
-  name: "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
-  port: 33013
-  server: sz.zj.my.1.76po.com
-  servername: jp-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- alterId: 0
-  cipher: auto
-  name: "\u52A0\u62FF\u5927\u4E2D\u7EE7-V2RAY"
-  port: 33015
-  server: sz.zj.my.1.76po.com
-  servername: ca-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- alterId: 0
-  cipher: auto
-  name: "\u82F1\u56FD\u4E2D\u7EE7-V2RAY"
-  port: 33016
-  server: sz.zj.my.1.76po.com
-  servername: gb-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- alterId: 0
-  cipher: auto
-  name: "\u5FB7\u56FD\u4E2D\u7EE7-V2RAY"
-  port: 33017
-  server: sz.zj.my.1.76po.com
-  servername: de-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- alterId: 0
-  cipher: auto
-  name: "\u5370\u5EA6\u4E2D\u7EE7-V2RAY"
-  port: 33018
-  server: sz.zj.my.1.76po.com
-  servername: in-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- alterId: 0
-  cipher: auto
-  name: "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-V2RAY"
-  port: 33019
-  server: sz.zj.my.1.76po.com
-  servername: au-01.v4vip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d31ecf27-7387-4e10-b0b7-1a47b1701400
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 17764
-  server: dx.hnytkm.com
+  name: "\u9996\u5C14\u9AD8\u901F\xD73"
+  password: 54a5c555-7281-4598-9ad0-814371b5b518
+  port: 41502
+  server: dxshmwy.domiw.com
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u9999\u6E2F-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 50078
-  server: szcm01.qingqiu.buzz
+  name: "\u9999\u6E2FHK01"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56701
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u9999\u6E2F-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 32827
-  server: cm-03.gangbi.vip
+  name: "\u9999\u6E2FHK02"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56702
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u9999\u6E2F-04"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 41998
-  server: 04cm.gangbi.vip
+  name: "\u9999\u6E2FHK03"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56703
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u9999\u6E2F-05"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 37204
-  server: nbct02.qingqiu.buzz
+  name: "\u65B0\u52A0\u5761SG01"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56704
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u9999\u6E2F-06"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 34347
-  server: cm01.gangbi.vip
+  name: "\u65B0\u52A0\u5761SG02"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56705
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u9999\u6E2F-07"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 59902
-  server: 02cm.gangbi.vip
+  name: "\u65B0\u52A0\u5761SG03"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56706
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 24775
-  server: szcm01.qingqiu.buzz
+  name: "\u65E5\u672CJP01"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56707
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 57599
-  server: nbct02.qingqiu.buzz
+  name: "\u65E5\u672CJP02"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56708
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 15428
-  server: dx.hnytkm.com
+  name: "\u65E5\u672CJP03"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56709
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-04"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 33408
-  server: cm-03.gangbi.vip
+  name: "\u65E5\u672CJP04"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56710
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-05"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 15874
-  server: 04cm.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 43478
-  server: cm-03.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 29782
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 39471
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-04"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 12802
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 13171
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 63717
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 22685
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-04"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 63797
-  server: sdcu01.duiha.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 16324
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 16855
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 55121
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CF0\u56FD-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 15218
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CF0\u56FD-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 63820
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CF0\u56FD-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 20980
-  server: nbct02.qingqiu.buzz
+  name: "\u65E5\u672CJP05"
+  password: 6838491a-245b-4a9b-bd01-6bf0dd382bc8
+  port: 56711
+  server: gz.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2FA IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 22184
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2FB IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 47396
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2FC IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 31219
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2FD IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 22387
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u7F8E\u56FD02 \u53CCISP\u5BB6\u5BBD\u4F4F\u5B85\u539F\u751FIP 2X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 52175
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u7F8E\u56FD03 \u53CCISP\u5BB6\u5BBD\u4F4F\u5B85\u539F\u751FIP 2X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 44906
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u53F0\u6E7EA \u4E3B\u529B\u96A7\u9053 2X \u5BB6\u5BBDIP"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 15369
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u53F0\u6E7EB \u4E3B\u529B\u96A7\u9053 2X \u5BB6\u5BBDIP"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 29634
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u65E5\u672CA \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 31611
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u65E5\u672CB \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 33547
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u97E9\u56FDA \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 14805
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u97E9\u56FDB \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 58341
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u65B0\u52A0\u5761A \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 57105
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u65B0\u52A0\u5761B \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 14878
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u5370\u5EA6A \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 18533
+  server: sh.zj.my1.2.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u5370\u5EA6B \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 42051
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u8FEA\u62DC \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 53468
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u5DF4\u897F \u4E3B\u529B\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 31316
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u82F1\u56FDA \u5907\u7528\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 36624
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u82F1\u56FDB \u5907\u7528\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 57785
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u82F1\u56FDC \u5907\u7528\u96A7\u9053 1X"
+  password: 9fc7452a-7784-4898-be7e-d4862907b973
+  port: 42694
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u8BD5\u7528\u8282\u70B9| \u9999\u6E2F"
+  password: 904aa559-e53c-42d7-a99b-79219f5cb18e
+  port: 27891
+  server: gg.efnwgood.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u8BD5\u7528\u8282\u70B9| \u65B0\u52A0\u5761"
+  password: 904aa559-e53c-42d7-a99b-79219f5cb18e
+  port: 28894
+  server: gran.efnwgood.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u8BD5\u7528\u8282\u70B9| \u7F8E\u56FD"
+  network: ws
+  port: 8880
+  server: 1.efnwgood.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 904aa559-e53c-42d7-a99b-79219f5cb18e
+  ws-opts:
+    headers:
+      Host: buyvmus.efnwgood.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: "\u82F1\u56FD-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 14861
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u82F1\u56FD-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 51101
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u82F1\u56FD-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 17591
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CD5\u56FD-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 13644
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CD5\u56FD-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 17519
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CD5\u56FD-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 47384
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u5FB7\u56FD-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 12657
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u5FB7\u56FD-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 39625
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u5FB7\u56FD-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 36146
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u963F\u8054\u914B-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 16059
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u963F\u8054\u914B-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 24815
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u963F\u8054\u914B-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 47133
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u5DF4\u57FA\u65AF\u5766-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 13127
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u5DF4\u57FA\u65AF\u5766-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 54253
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u5DF4\u57FA\u65AF\u5766-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 17891
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u83F2\u5F8B\u5BBE-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 11700
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u83F2\u5F8B\u5BBE-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 23296
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u83F2\u5F8B\u5BBE-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 20358
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6FB3\u5927\u5229\u4E9A-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 12850
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6FB3\u5927\u5229\u4E9A-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 28103
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6FB3\u5927\u5229\u4E9A-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 14312
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u4FC4\u7F57\u65AF-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 16080
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u4FC4\u7F57\u65AF-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 16758
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u4FC4\u7F57\u65AF-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 10014
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u5370\u5EA6-01"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 14526
-  server: dx.hnytkm.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u5370\u5EA6-02"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 51951
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u5370\u5EA6-03"
-  password: e37d5232-b2bb-4112-87f9-6ed8615f3337
-  port: 26041
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u53BB\u96646\u6761\u4E0D\u5408\u9002\u7EBF\u8DEF"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 10648
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u9999\u6E2F03|\u5E7F\u6E2F|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 16071
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u9999\u6E2F04|\u5E7F\u6E2F|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 41215
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u9999\u6E2F05 |1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 18596
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u9999\u6E2F06 |1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 21650
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u9999\u6E2F01|5G\u5BB6\u5BBD|0.8X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 19326
-  server: feizhu.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u9999\u6E2F02|5G\u5BB6\u5BBD|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 18595
-  server: feizhu.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u9999\u6E2F03 \u89E3\u9501|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 17076
-  server: feizhu.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u65B0\u52A0\u576101|\u5E7F\u65B0|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 48430
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u65B0\u52A0\u576102|\u5E7F\u65B0|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 37006
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u65B0\u52A0\u576103|\u5E7F\u65B0|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 37105
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u65E5\u672C01|\u5E7F\u65E5|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 47944
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u65E5\u672C02|\u5E7F\u65E5|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 13898
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u65E5\u672C03|\u5E7F\u65E5|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 25499
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u53F0\u6E7E01|\u5E7F\u53F0|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 17791
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u53F0\u6E7E02|\u5E7F\u53F0|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 12324
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u97E9\u56FD01|\u5E7F\u97E9|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 13666
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u97E9\u56FD02|\u5E7F\u97E9|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 33446
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u97E9\u56FD03|\u5E7F\u97E9|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 39183
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u7F8E\u56FD01|\u5E7F\u7F8E|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 26323
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u7F8E\u56FD02|\u5E7F\u7F8E|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 49605
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "DX\u571F\u8033\u5176-SS|1X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 10973
-  server: hzgy.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F01|\u676D\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 17000
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F02|\u676D\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 43037
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F03|\u676D\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 11285
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F04|\u676D\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 59869
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F05|\u676D\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 56228
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F06|\u676D\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 42796
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65B0\u52A0\u576101|\u676D\u65B0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 44818
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65B0\u52A0\u576102|\u676D\u65B0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 15494
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65B0\u52A0\u576103|\u676D\u65B0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 36716
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u97E9\u56FD01|\u676D\u97E9|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 10297
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u97E9\u56FD02|\u676D\u97E9|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 34801
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u97E9\u56FD03|\u676D\u97E9|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 11788
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65E5\u672C01|\u676D\u65E5|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 15427
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65E5\u672C02|\u676D\u65E5|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 56920
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65E5\u672C03|\u676D\u65E5|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 40390
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u53F0\u6E7E01|\u676D\u53F0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 14287
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u53F0\u6E7E02|\u676D\u53F0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 37551
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u53F0\u6E7E03|\u676D\u53F0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 56547
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u7F8E\u56FD01|\u676D\u7F8E|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 56100
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u7F8E\u56FD02|\u676D\u7F8E|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 29907
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u7F8E\u56FD03|\u676D\u7F8E|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 56946
-  server: hz443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F01|\u6CF8\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 32943
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F02|\u6CF8\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 25467
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F03|\u6CF8\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 49853
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F04|\u6CF8\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 25546
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F05|\u6CF8\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 24769
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u9999\u6E2F06|\u6CF8\u6E2F|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 35643
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65B0\u52A0\u576101|\u6CF8\u65B0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 31112
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65B0\u52A0\u576102|\u6CF8\u65B0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 16228
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65B0\u52A0\u576103|\u6CF8\u65B0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 26267
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u97E9\u56FD01|\u6CF8\u97E9|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 14978
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u97E9\u56FD02|\u6CF8\u97E9|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 31784
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u97E9\u56FD03|\u6CF8\u97E9|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 54290
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65E5\u672C01|\u6CF8\u65E5|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 23709
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65E5\u672C02|\u6CF8\u65E5|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 48731
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u65E5\u672C03|\u6CF8\u65E5|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 29320
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u53F0\u6E7E01|\u6CF8\u53F0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 26650
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u53F0\u6E7E02|\u6CF8\u53F0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 13115
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u53F0\u6E7E03|\u6CF8\u53F0|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 12937
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u7F8E\u56FD01|\u6CF8\u7F8E|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 40285
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u7F8E\u56FD02|\u6CF8\u7F8E|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 19619
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "FG\u7F8E\u56FD03|\u6CF8\u7F8E|1.5X"
-  password: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  port: 29207
-  server: fg443.ewenhot.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\u8FEA\u62DC01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  network: ws
-  port: 10554
-  server: s31.753654.xyz
+  port: 443
+  server: uk-01.speedup.club
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  ws-opts:
-    headers:
-      Host: s31.753654.xyz
-    path: /x2cloud?ed=2048
+  uuid: 80b260d2-fcb2-4e37-b12a-69c35baeae95
 - alterId: 0
   cipher: auto
-  name: "\u82F1\u56FD01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  network: ws
-  port: 10553
-  server: s28.753654.xyz
+  name: "\u9999\u6E2F-02"
+  port: 443
+  server: hk-02.speedup.club
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  ws-opts:
-    headers:
-      Host: s28.753654.xyz
-    path: /x2cloud?ed=2048
+  uuid: 80b260d2-fcb2-4e37-b12a-69c35baeae95
 - alterId: 0
   cipher: auto
-  name: "\u5FB7\u56FD01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  network: ws
-  port: 10551
-  server: s19.753654.xyz
+  name: "\u7F8E\u56FD-03"
+  port: 443
+  server: us-03.speedup.club
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  ws-opts:
-    headers:
-      Host: s19.753654.xyz
-    path: /x2cloud?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\u5370\u5EA601|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  network: ws
-  port: 12551
-  server: s1.753654.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 306adf2a-b3bb-4a21-8fd0-9eb86180d403
-  ws-opts:
-    headers:
-      Host: s1.753654.xyz
-    path: /x2cloud?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "V1 \u9999\u6E2F \u79FB\u52A8\u4E13\u7EBF"
-  port: 31011
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u53F0\u6E7E \u79FB\u52A8\u4E13\u7EBF"
-  port: 31021
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u65E5\u672C \u79FB\u52A8\u4E13\u7EBF"
-  port: 31031
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u65B0\u52A0\u5761 \u79FB\u52A8\u4E13\u7EBF"
-  port: 31041
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u97E9\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  port: 31051
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u7F8E\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  port: 31061
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u6CF0\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  port: 31081
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u8D8A\u5357 \u79FB\u52A8\u4E13\u7EBF"
-  port: 31082
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u5FB7\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  port: 31091
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u82F1\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  port: 31092
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V1 \u6FB3\u5927\u5229\u4E9A \u79FB\u52A8\u4E13\u7EBF"
-  port: 31093
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF"
-  port: 31011
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF"
-  port: 31111
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF"
-  port: 31021
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF"
-  port: 31121
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u65E5\u672C \u534E\u5357\u4E13\u7EBF"
-  port: 31031
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF"
-  port: 31131
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF"
-  port: 31041
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF"
-  port: 31141
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF"
-  port: 31061
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF"
-  port: 31161
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
-  port: 31181
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u8D8A\u5357 \u534E\u5357\u4E13\u7EBF"
-  port: 31182
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
-  port: 31191
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u82F1\u56FD \u534E\u5357\u4E13\u7EBF"
-  port: 31192
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V2 \u6FB3\u5927\u5229\u4E9A \u534E\u5357\u4E13\u7EBF"
-  port: 31193
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF-NF"
-  port: 31011
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF-NF"
-  port: 31411
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u9999\u6E2F \u534E\u4E1C\u4E13\u7EBF-NF"
-  port: 31411
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF-NF"
-  port: 31021
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF-NF"
-  port: 31421
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u53F0\u6E7E \u534E\u4E1C\u4E13\u7EBF-NF"
-  port: 31421
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u65E5\u672C \u534E\u5357\u4E13\u7EBF-NF"
-  port: 31331
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF-NF"
-  port: 31431
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u65E5\u672C \u534E\u4E1C\u4E13\u7EBF-NF"
-  port: 31431
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF-NF"
-  port: 31341
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF-NF"
-  port: 31441
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u65B0\u52A0\u5761 \u534E\u4E1C\u4E13\u7EBF-NF"
-  port: 31441
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF-NF"
-  port: 31361
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF-NF"
-  port: 31461
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u7F8E\u56FD \u534E\u4E1C\u4E13\u7EBF-NF"
-  port: 31461
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
-  port: 31481
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u8D8A\u5357 \u534E\u4E2D\u4E13\u7EBF"
-  port: 31482
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
-  port: 31491
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u82F1\u56FD \u534E\u4E1C\u4E13\u7EBF"
-  port: 31492
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
-- alterId: 0
-  cipher: auto
-  name: "V3 \u6FB3\u5927\u5229\u4E9A \u534E\u4E1C\u4E13\u7EBF"
-  port: 31493
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb261c75-e153-4533-9cdc-66e5bd074857
+  uuid: 80b260d2-fcb2-4e37-b12a-69c35baeae95
 - name: "\u9999\u6E2F01 | HKBN | 1X"
-  password: 476d4651-441e-4b05-b04d-a0ea840f60c3
+  password: 2c6d801c-8cec-4d03-9caf-6532e0237675
   port: 42030
   server: hkg01.service.nahidacloud.top
   skip-cert-verify: true
@@ -1693,7 +597,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u7F8E\u56FD01 | 1X"
-  password: 476d4651-441e-4b05-b04d-a0ea840f60c3
+  password: 2c6d801c-8cec-4d03-9caf-6532e0237675
   port: 443
   server: us01.service.nahidacloud.top
   skip-cert-verify: true
@@ -1701,7 +605,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u65B0\u52A0\u576101 | 1X"
-  password: 476d4651-441e-4b05-b04d-a0ea840f60c3
+  password: 2c6d801c-8cec-4d03-9caf-6532e0237675
   port: 11000
   server: sg01.service.nahidacloud.top
   skip-cert-verify: true
@@ -1710,469 +614,167 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\u53F0\u6E7E01 | 1X"
-  password: 476d4651-441e-4b05-b04d-a0ea840f60c3
+  password: 2c6d801c-8cec-4d03-9caf-6532e0237675
   port: 33143
   server: sz.zj.my.1.76po.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\u9999\u6E2F02 | 1X"
-  password: 476d4651-441e-4b05-b04d-a0ea840f60c3
+  password: 2c6d801c-8cec-4d03-9caf-6532e0237675
   port: 51663
   server: sz.zj.my.1.76po.com
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: "\u9999\u6E2F 1 LV0-HK"
-  port: 21322
-  server: 223.113.130.60
+- name: "TW-\u677F\u68652-2"
+  password: 5cd1687e-3d34-490c-baa4-7f85b0ed62ee
+  port: 19489
+  server: b22.ntbq.dynu.net
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: b22.ntbq.dynu.net
+  type: trojan
   udp: true
-  uuid: bcf8f04f-c837-4f47-ac50-1cf9da67e12f
 proxy-groups:
 - interval: 300
   name: Auto
   proxies:
-  - "\u65E5\u672C03|X2"
-  - "\u7F8E\u56FDLA03|X1"
-  - "\u7F8E\u56FD\u6D1B\u6749\u77F603|X1"
-  - "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03|X1"
-  - "\u65B0\u52A0\u576103|X2"
-  - "\u82F1\u56FD\u4F26\u656603|1.5X"
-  - "\u9999\u6E2F03|X2"
-  - "\u53F0\u6E7E03|X2"
-  - "\u7F8E\u56FD\u7EBD\u7EA603|X1"
-  - "\u7F8E\u56FDLA03U|X1"
-  - "\u7F8E\u56FD\u6D1B\u6749\u77F603U|X1"
-  - "\u65B0\u52A0\u576103U|X2"
-  - "\u82F1\u56FD\u4F26\u656603U1.5X"
-  - "\u9999\u6E2F03U|X2"
-  - "\u65E5\u672C03U|X1.5"
-  - "\u53F0\u6E7E03U|X2"
-  - "\u7F8E\u56FD\u7EBD\u7EA603U|X1"
-  - "\u4FC4\u7F57\u65AF03U|X1"
-  - "\u97E9\u56FD03M|X2"
-  - "\u83F2\u5F8B\u5BBE03M|X1.5"
-  - "\u9999\u6E2F03M|X02"
-  - "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903|X1.5"
-  - "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03U|X1"
-  - "\u9632\u5931\u8054\u53D1\u5E03\u7AD9"
-  - "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903U|X1.5"
-  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
-  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
-  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
-  - "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
-  - "\u52A0\u62FF\u5927\u4E2D\u7EE7-TROJAN"
-  - "\u82F1\u56FD\u4E2D\u7EE7-TROJAN"
-  - "\u5FB7\u56FD\u4E2D\u7EE7-TROJAN"
-  - "\u5370\u5EA6\u4E2D\u7EE7-TROJAN"
-  - "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-TROJAN"
-  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
-  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
-  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
-  - "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
-  - "\u52A0\u62FF\u5927\u4E2D\u7EE7-V2RAY"
-  - "\u82F1\u56FD\u4E2D\u7EE7-V2RAY"
-  - "\u5FB7\u56FD\u4E2D\u7EE7-V2RAY"
-  - "\u5370\u5EA6\u4E2D\u7EE7-V2RAY"
-  - "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-V2RAY"
-  - "\u9999\u6E2F-01"
-  - "\u9999\u6E2F-02"
-  - "\u9999\u6E2F-03"
-  - "\u9999\u6E2F-04"
-  - "\u9999\u6E2F-05"
-  - "\u9999\u6E2F-06"
-  - "\u9999\u6E2F-07"
-  - "\u7F8E\u56FD-01"
-  - "\u7F8E\u56FD-02"
-  - "\u7F8E\u56FD-03"
-  - "\u7F8E\u56FD-04"
-  - "\u7F8E\u56FD-05"
-  - "\u65B0\u52A0\u5761-01"
-  - "\u65B0\u52A0\u5761-02"
-  - "\u65B0\u52A0\u5761-03"
-  - "\u65B0\u52A0\u5761-04"
-  - "\u65E5\u672C-01"
-  - "\u65E5\u672C-02"
-  - "\u65E5\u672C-03"
-  - "\u65E5\u672C-04"
-  - "\u97E9\u56FD-01"
-  - "\u97E9\u56FD-02"
-  - "\u97E9\u56FD-03"
-  - "\u6CF0\u56FD-01"
-  - "\u6CF0\u56FD-02"
-  - "\u6CF0\u56FD-03"
+  - "\u7F8E\u56FD1"
+  - "\u7F8E\u56FD2"
+  - "\u7F8E\u56FD3"
+  - "\u7F8E\u56FD4"
+  - "\u7F8E\u56FD5"
+  - "\u7F8E\u56FD6"
+  - "\u7F8E\u56FD7"
+  - "\u7F8E\u56FDIPV6"
+  - "\u60A8\u7684ISP \u7F8E\u56FD"
+  - "\u6D1B\u6749\u77F6-\u76F4\u8FDEA"
+  - "\u6D1B\u6749\u77F6-\u76F4\u8FDEB"
+  - "\u7EBD\u7EA6-\u76F4\u8FDEA"
+  - "\u7EBD\u7EA6-\u76F4\u8FDEB"
+  - "\u65B0\u52A0\u5761\u9AD8\u901F\xD75"
+  - "\u65B0\u52A0\u5761-\u76F4\u8FDEA"
+  - "\u65B0\u52A0\u5761-\u76F4\u8FDEB"
+  - "\u65B0\u52A0\u5761-\u76F4\u8FDEC"
+  - "\u9999\u6E2F-\u76F4\u8FDE"
+  - "\u4E1C\u4EAC\u9AD8\u901F\xD75"
+  - "\u4E1C\u4EAC-\u76F4\u8FDEA"
+  - "\u4E1C\u4EAC-\u76F4\u8FDEB"
+  - "\u9996\u5C14\u9AD8\u901F\xD73"
+  - "\u9999\u6E2FHK01"
+  - "\u9999\u6E2FHK02"
+  - "\u9999\u6E2FHK03"
+  - "\u65B0\u52A0\u5761SG01"
+  - "\u65B0\u52A0\u5761SG02"
+  - "\u65B0\u52A0\u5761SG03"
+  - "\u65E5\u672CJP01"
+  - "\u65E5\u672CJP02"
+  - "\u65E5\u672CJP03"
+  - "\u65E5\u672CJP04"
+  - "\u65E5\u672CJP05"
+  - "\u9999\u6E2FA IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  - "\u9999\u6E2FB IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  - "\u9999\u6E2FC IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  - "\u9999\u6E2FD IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  - "\u7F8E\u56FD02 \u53CCISP\u5BB6\u5BBD\u4F4F\u5B85\u539F\u751FIP 2X"
+  - "\u7F8E\u56FD03 \u53CCISP\u5BB6\u5BBD\u4F4F\u5B85\u539F\u751FIP 2X"
+  - "\u53F0\u6E7EA \u4E3B\u529B\u96A7\u9053 2X \u5BB6\u5BBDIP"
+  - "\u53F0\u6E7EB \u4E3B\u529B\u96A7\u9053 2X \u5BB6\u5BBDIP"
+  - "\u65E5\u672CA \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u65E5\u672CB \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u97E9\u56FDA \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u97E9\u56FDB \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u65B0\u52A0\u5761A \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u65B0\u52A0\u5761B \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u5370\u5EA6A \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u5370\u5EA6B \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u8FEA\u62DC \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u5DF4\u897F \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u82F1\u56FDA \u5907\u7528\u96A7\u9053 1X"
+  - "\u82F1\u56FDB \u5907\u7528\u96A7\u9053 1X"
+  - "\u82F1\u56FDC \u5907\u7528\u96A7\u9053 1X"
+  - "\u8BD5\u7528\u8282\u70B9| \u9999\u6E2F"
+  - "\u8BD5\u7528\u8282\u70B9| \u65B0\u52A0\u5761"
+  - "\u8BD5\u7528\u8282\u70B9| \u7F8E\u56FD"
   - "\u82F1\u56FD-01"
-  - "\u82F1\u56FD-02"
-  - "\u82F1\u56FD-03"
-  - "\u6CD5\u56FD-01"
-  - "\u6CD5\u56FD-02"
-  - "\u6CD5\u56FD-03"
-  - "\u5FB7\u56FD-01"
-  - "\u5FB7\u56FD-02"
-  - "\u5FB7\u56FD-03"
-  - "\u963F\u8054\u914B-01"
-  - "\u963F\u8054\u914B-02"
-  - "\u963F\u8054\u914B-03"
-  - "\u5DF4\u57FA\u65AF\u5766-01"
-  - "\u5DF4\u57FA\u65AF\u5766-02"
-  - "\u5DF4\u57FA\u65AF\u5766-03"
-  - "\u83F2\u5F8B\u5BBE-01"
-  - "\u83F2\u5F8B\u5BBE-02"
-  - "\u83F2\u5F8B\u5BBE-03"
-  - "\u6FB3\u5927\u5229\u4E9A-01"
-  - "\u6FB3\u5927\u5229\u4E9A-02"
-  - "\u6FB3\u5927\u5229\u4E9A-03"
-  - "\u4FC4\u7F57\u65AF-01"
-  - "\u4FC4\u7F57\u65AF-02"
-  - "\u4FC4\u7F57\u65AF-03"
-  - "\u5370\u5EA6-01"
-  - "\u5370\u5EA6-02"
-  - "\u5370\u5EA6-03"
-  - "\u53BB\u96646\u6761\u4E0D\u5408\u9002\u7EBF\u8DEF"
-  - "DX\u9999\u6E2F03|\u5E7F\u6E2F|1X"
-  - "DX\u9999\u6E2F04|\u5E7F\u6E2F|1X"
-  - "DX\u9999\u6E2F05 |1X"
-  - "DX\u9999\u6E2F06 |1X"
-  - "\u9999\u6E2F01|5G\u5BB6\u5BBD|0.8X"
-  - "\u9999\u6E2F02|5G\u5BB6\u5BBD|1X"
-  - "\u9999\u6E2F03 \u89E3\u9501|1X"
-  - "DX\u65B0\u52A0\u576101|\u5E7F\u65B0|1X"
-  - "DX\u65B0\u52A0\u576102|\u5E7F\u65B0|1X"
-  - "DX\u65B0\u52A0\u576103|\u5E7F\u65B0|1X"
-  - "DX\u65E5\u672C01|\u5E7F\u65E5|1X"
-  - "DX\u65E5\u672C02|\u5E7F\u65E5|1X"
-  - "DX\u65E5\u672C03|\u5E7F\u65E5|1X"
-  - "DX\u53F0\u6E7E01|\u5E7F\u53F0|1X"
-  - "DX\u53F0\u6E7E02|\u5E7F\u53F0|1X"
-  - "DX\u97E9\u56FD01|\u5E7F\u97E9|1X"
-  - "DX\u97E9\u56FD02|\u5E7F\u97E9|1X"
-  - "DX\u97E9\u56FD03|\u5E7F\u97E9|1X"
-  - "DX\u7F8E\u56FD01|\u5E7F\u7F8E|1X"
-  - "DX\u7F8E\u56FD02|\u5E7F\u7F8E|1X"
-  - "DX\u571F\u8033\u5176-SS|1X"
-  - "FG\u9999\u6E2F01|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F02|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F03|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F04|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F05|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F06|\u676D\u6E2F|1.5X"
-  - "FG\u65B0\u52A0\u576101|\u676D\u65B0|1.5X"
-  - "FG\u65B0\u52A0\u576102|\u676D\u65B0|1.5X"
-  - "FG\u65B0\u52A0\u576103|\u676D\u65B0|1.5X"
-  - "FG\u97E9\u56FD01|\u676D\u97E9|1.5X"
-  - "FG\u97E9\u56FD02|\u676D\u97E9|1.5X"
-  - "FG\u97E9\u56FD03|\u676D\u97E9|1.5X"
-  - "FG\u65E5\u672C01|\u676D\u65E5|1.5X"
-  - "FG\u65E5\u672C02|\u676D\u65E5|1.5X"
-  - "FG\u65E5\u672C03|\u676D\u65E5|1.5X"
-  - "FG\u53F0\u6E7E01|\u676D\u53F0|1.5X"
-  - "FG\u53F0\u6E7E02|\u676D\u53F0|1.5X"
-  - "FG\u53F0\u6E7E03|\u676D\u53F0|1.5X"
-  - "FG\u7F8E\u56FD01|\u676D\u7F8E|1.5X"
-  - "FG\u7F8E\u56FD02|\u676D\u7F8E|1.5X"
-  - "FG\u7F8E\u56FD03|\u676D\u7F8E|1.5X"
-  - "FG\u9999\u6E2F01|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F02|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F03|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F04|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F05|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F06|\u6CF8\u6E2F|1.5X"
-  - "FG\u65B0\u52A0\u576101|\u6CF8\u65B0|1.5X"
-  - "FG\u65B0\u52A0\u576102|\u6CF8\u65B0|1.5X"
-  - "FG\u65B0\u52A0\u576103|\u6CF8\u65B0|1.5X"
-  - "FG\u97E9\u56FD01|\u6CF8\u97E9|1.5X"
-  - "FG\u97E9\u56FD02|\u6CF8\u97E9|1.5X"
-  - "FG\u97E9\u56FD03|\u6CF8\u97E9|1.5X"
-  - "FG\u65E5\u672C01|\u6CF8\u65E5|1.5X"
-  - "FG\u65E5\u672C02|\u6CF8\u65E5|1.5X"
-  - "FG\u65E5\u672C03|\u6CF8\u65E5|1.5X"
-  - "FG\u53F0\u6E7E01|\u6CF8\u53F0|1.5X"
-  - "FG\u53F0\u6E7E02|\u6CF8\u53F0|1.5X"
-  - "FG\u53F0\u6E7E03|\u6CF8\u53F0|1.5X"
-  - "FG\u7F8E\u56FD01|\u6CF8\u7F8E|1.5X"
-  - "FG\u7F8E\u56FD02|\u6CF8\u7F8E|1.5X"
-  - "FG\u7F8E\u56FD03|\u6CF8\u7F8E|1.5X"
-  - "\u8FEA\u62DC01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  - "\u82F1\u56FD01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  - "\u5FB7\u56FD01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  - "\u5370\u5EA601|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  - "V1 \u9999\u6E2F \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u53F0\u6E7E \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u65E5\u672C \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u65B0\u52A0\u5761 \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u97E9\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u7F8E\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u6CF0\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u8D8A\u5357 \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u5FB7\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u82F1\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u6FB3\u5927\u5229\u4E9A \u79FB\u52A8\u4E13\u7EBF"
-  - "V2 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u65E5\u672C \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u8D8A\u5357 \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u82F1\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u6FB3\u5927\u5229\u4E9A \u534E\u5357\u4E13\u7EBF"
-  - "V3 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u9999\u6E2F \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u53F0\u6E7E \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u65E5\u672C \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u65E5\u672C \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u65B0\u52A0\u5761 \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u7F8E\u56FD \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V3 \u8D8A\u5357 \u534E\u4E2D\u4E13\u7EBF"
-  - "V3 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V3 \u82F1\u56FD \u534E\u4E1C\u4E13\u7EBF"
-  - "V3 \u6FB3\u5927\u5229\u4E9A \u534E\u4E1C\u4E13\u7EBF"
+  - "\u9999\u6E2F-02"
+  - "\u7F8E\u56FD-03"
   - "\u9999\u6E2F01 | HKBN | 1X"
   - "\u7F8E\u56FD01 | 1X"
   - "\u65B0\u52A0\u576101 | 1X"
   - "\u53F0\u6E7E01 | 1X"
   - "\u9999\u6E2F02 | 1X"
-  - "\u9999\u6E2F 1 LV0-HK"
+  - "TW-\u677F\u68652-2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: Proxy
   proxies:
   - Auto
-  - "\u65E5\u672C03|X2"
-  - "\u7F8E\u56FDLA03|X1"
-  - "\u7F8E\u56FD\u6D1B\u6749\u77F603|X1"
-  - "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03|X1"
-  - "\u65B0\u52A0\u576103|X2"
-  - "\u82F1\u56FD\u4F26\u656603|1.5X"
-  - "\u9999\u6E2F03|X2"
-  - "\u53F0\u6E7E03|X2"
-  - "\u7F8E\u56FD\u7EBD\u7EA603|X1"
-  - "\u7F8E\u56FDLA03U|X1"
-  - "\u7F8E\u56FD\u6D1B\u6749\u77F603U|X1"
-  - "\u65B0\u52A0\u576103U|X2"
-  - "\u82F1\u56FD\u4F26\u656603U1.5X"
-  - "\u9999\u6E2F03U|X2"
-  - "\u65E5\u672C03U|X1.5"
-  - "\u53F0\u6E7E03U|X2"
-  - "\u7F8E\u56FD\u7EBD\u7EA603U|X1"
-  - "\u4FC4\u7F57\u65AF03U|X1"
-  - "\u97E9\u56FD03M|X2"
-  - "\u83F2\u5F8B\u5BBE03M|X1.5"
-  - "\u9999\u6E2F03M|X02"
-  - "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903|X1.5"
-  - "\u7F8E\u56FD\u62C9\u65AF\u7EF4\u52A0\u65AF03U|X1"
-  - "\u9632\u5931\u8054\u53D1\u5E03\u7AD9"
-  - "\u6B27\u6D32\u963F\u59C6\u65AF\u7279\u4E3903U|X1.5"
-  - "\u9999\u6E2F\u4E2D\u7EE7-TROJAN"
-  - "\u7F8E\u56FD\u4E2D\u7EE7-TROJAN"
-  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-TROJAN"
-  - "\u65E5\u672C\u4E2D\u7EE7-TROJAN"
-  - "\u52A0\u62FF\u5927\u4E2D\u7EE7-TROJAN"
-  - "\u82F1\u56FD\u4E2D\u7EE7-TROJAN"
-  - "\u5FB7\u56FD\u4E2D\u7EE7-TROJAN"
-  - "\u5370\u5EA6\u4E2D\u7EE7-TROJAN"
-  - "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-TROJAN"
-  - "\u9999\u6E2F\u4E2D\u7EE7-V2RAY"
-  - "\u7F8E\u56FD\u4E2D\u7EE7-V2RAY"
-  - "\u65B0\u52A0\u5761\u4E2D\u7EE7-V2RAY"
-  - "\u65E5\u672C\u4E2D\u7EE7-V2RAY"
-  - "\u52A0\u62FF\u5927\u4E2D\u7EE7-V2RAY"
-  - "\u82F1\u56FD\u4E2D\u7EE7-V2RAY"
-  - "\u5FB7\u56FD\u4E2D\u7EE7-V2RAY"
-  - "\u5370\u5EA6\u4E2D\u7EE7-V2RAY"
-  - "\u6FB3\u5927\u5229\u4E9A\u4E2D\u7EE7-V2RAY"
-  - "\u9999\u6E2F-01"
-  - "\u9999\u6E2F-02"
-  - "\u9999\u6E2F-03"
-  - "\u9999\u6E2F-04"
-  - "\u9999\u6E2F-05"
-  - "\u9999\u6E2F-06"
-  - "\u9999\u6E2F-07"
-  - "\u7F8E\u56FD-01"
-  - "\u7F8E\u56FD-02"
-  - "\u7F8E\u56FD-03"
-  - "\u7F8E\u56FD-04"
-  - "\u7F8E\u56FD-05"
-  - "\u65B0\u52A0\u5761-01"
-  - "\u65B0\u52A0\u5761-02"
-  - "\u65B0\u52A0\u5761-03"
-  - "\u65B0\u52A0\u5761-04"
-  - "\u65E5\u672C-01"
-  - "\u65E5\u672C-02"
-  - "\u65E5\u672C-03"
-  - "\u65E5\u672C-04"
-  - "\u97E9\u56FD-01"
-  - "\u97E9\u56FD-02"
-  - "\u97E9\u56FD-03"
-  - "\u6CF0\u56FD-01"
-  - "\u6CF0\u56FD-02"
-  - "\u6CF0\u56FD-03"
+  - "\u7F8E\u56FD1"
+  - "\u7F8E\u56FD2"
+  - "\u7F8E\u56FD3"
+  - "\u7F8E\u56FD4"
+  - "\u7F8E\u56FD5"
+  - "\u7F8E\u56FD6"
+  - "\u7F8E\u56FD7"
+  - "\u7F8E\u56FDIPV6"
+  - "\u60A8\u7684ISP \u7F8E\u56FD"
+  - "\u6D1B\u6749\u77F6-\u76F4\u8FDEA"
+  - "\u6D1B\u6749\u77F6-\u76F4\u8FDEB"
+  - "\u7EBD\u7EA6-\u76F4\u8FDEA"
+  - "\u7EBD\u7EA6-\u76F4\u8FDEB"
+  - "\u65B0\u52A0\u5761\u9AD8\u901F\xD75"
+  - "\u65B0\u52A0\u5761-\u76F4\u8FDEA"
+  - "\u65B0\u52A0\u5761-\u76F4\u8FDEB"
+  - "\u65B0\u52A0\u5761-\u76F4\u8FDEC"
+  - "\u9999\u6E2F-\u76F4\u8FDE"
+  - "\u4E1C\u4EAC\u9AD8\u901F\xD75"
+  - "\u4E1C\u4EAC-\u76F4\u8FDEA"
+  - "\u4E1C\u4EAC-\u76F4\u8FDEB"
+  - "\u9996\u5C14\u9AD8\u901F\xD73"
+  - "\u9999\u6E2FHK01"
+  - "\u9999\u6E2FHK02"
+  - "\u9999\u6E2FHK03"
+  - "\u65B0\u52A0\u5761SG01"
+  - "\u65B0\u52A0\u5761SG02"
+  - "\u65B0\u52A0\u5761SG03"
+  - "\u65E5\u672CJP01"
+  - "\u65E5\u672CJP02"
+  - "\u65E5\u672CJP03"
+  - "\u65E5\u672CJP04"
+  - "\u65E5\u672CJP05"
+  - "\u9999\u6E2FA IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  - "\u9999\u6E2FB IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  - "\u9999\u6E2FC IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  - "\u9999\u6E2FD IEPL\u4E13\u7EBF 2X \u539F\u751FIP"
+  - "\u7F8E\u56FD02 \u53CCISP\u5BB6\u5BBD\u4F4F\u5B85\u539F\u751FIP 2X"
+  - "\u7F8E\u56FD03 \u53CCISP\u5BB6\u5BBD\u4F4F\u5B85\u539F\u751FIP 2X"
+  - "\u53F0\u6E7EA \u4E3B\u529B\u96A7\u9053 2X \u5BB6\u5BBDIP"
+  - "\u53F0\u6E7EB \u4E3B\u529B\u96A7\u9053 2X \u5BB6\u5BBDIP"
+  - "\u65E5\u672CA \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u65E5\u672CB \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u97E9\u56FDA \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u97E9\u56FDB \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u65B0\u52A0\u5761A \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u65B0\u52A0\u5761B \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u5370\u5EA6A \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u5370\u5EA6B \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u8FEA\u62DC \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u5DF4\u897F \u4E3B\u529B\u96A7\u9053 1X"
+  - "\u82F1\u56FDA \u5907\u7528\u96A7\u9053 1X"
+  - "\u82F1\u56FDB \u5907\u7528\u96A7\u9053 1X"
+  - "\u82F1\u56FDC \u5907\u7528\u96A7\u9053 1X"
+  - "\u8BD5\u7528\u8282\u70B9| \u9999\u6E2F"
+  - "\u8BD5\u7528\u8282\u70B9| \u65B0\u52A0\u5761"
+  - "\u8BD5\u7528\u8282\u70B9| \u7F8E\u56FD"
   - "\u82F1\u56FD-01"
-  - "\u82F1\u56FD-02"
-  - "\u82F1\u56FD-03"
-  - "\u6CD5\u56FD-01"
-  - "\u6CD5\u56FD-02"
-  - "\u6CD5\u56FD-03"
-  - "\u5FB7\u56FD-01"
-  - "\u5FB7\u56FD-02"
-  - "\u5FB7\u56FD-03"
-  - "\u963F\u8054\u914B-01"
-  - "\u963F\u8054\u914B-02"
-  - "\u963F\u8054\u914B-03"
-  - "\u5DF4\u57FA\u65AF\u5766-01"
-  - "\u5DF4\u57FA\u65AF\u5766-02"
-  - "\u5DF4\u57FA\u65AF\u5766-03"
-  - "\u83F2\u5F8B\u5BBE-01"
-  - "\u83F2\u5F8B\u5BBE-02"
-  - "\u83F2\u5F8B\u5BBE-03"
-  - "\u6FB3\u5927\u5229\u4E9A-01"
-  - "\u6FB3\u5927\u5229\u4E9A-02"
-  - "\u6FB3\u5927\u5229\u4E9A-03"
-  - "\u4FC4\u7F57\u65AF-01"
-  - "\u4FC4\u7F57\u65AF-02"
-  - "\u4FC4\u7F57\u65AF-03"
-  - "\u5370\u5EA6-01"
-  - "\u5370\u5EA6-02"
-  - "\u5370\u5EA6-03"
-  - "\u53BB\u96646\u6761\u4E0D\u5408\u9002\u7EBF\u8DEF"
-  - "DX\u9999\u6E2F03|\u5E7F\u6E2F|1X"
-  - "DX\u9999\u6E2F04|\u5E7F\u6E2F|1X"
-  - "DX\u9999\u6E2F05 |1X"
-  - "DX\u9999\u6E2F06 |1X"
-  - "\u9999\u6E2F01|5G\u5BB6\u5BBD|0.8X"
-  - "\u9999\u6E2F02|5G\u5BB6\u5BBD|1X"
-  - "\u9999\u6E2F03 \u89E3\u9501|1X"
-  - "DX\u65B0\u52A0\u576101|\u5E7F\u65B0|1X"
-  - "DX\u65B0\u52A0\u576102|\u5E7F\u65B0|1X"
-  - "DX\u65B0\u52A0\u576103|\u5E7F\u65B0|1X"
-  - "DX\u65E5\u672C01|\u5E7F\u65E5|1X"
-  - "DX\u65E5\u672C02|\u5E7F\u65E5|1X"
-  - "DX\u65E5\u672C03|\u5E7F\u65E5|1X"
-  - "DX\u53F0\u6E7E01|\u5E7F\u53F0|1X"
-  - "DX\u53F0\u6E7E02|\u5E7F\u53F0|1X"
-  - "DX\u97E9\u56FD01|\u5E7F\u97E9|1X"
-  - "DX\u97E9\u56FD02|\u5E7F\u97E9|1X"
-  - "DX\u97E9\u56FD03|\u5E7F\u97E9|1X"
-  - "DX\u7F8E\u56FD01|\u5E7F\u7F8E|1X"
-  - "DX\u7F8E\u56FD02|\u5E7F\u7F8E|1X"
-  - "DX\u571F\u8033\u5176-SS|1X"
-  - "FG\u9999\u6E2F01|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F02|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F03|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F04|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F05|\u676D\u6E2F|1.5X"
-  - "FG\u9999\u6E2F06|\u676D\u6E2F|1.5X"
-  - "FG\u65B0\u52A0\u576101|\u676D\u65B0|1.5X"
-  - "FG\u65B0\u52A0\u576102|\u676D\u65B0|1.5X"
-  - "FG\u65B0\u52A0\u576103|\u676D\u65B0|1.5X"
-  - "FG\u97E9\u56FD01|\u676D\u97E9|1.5X"
-  - "FG\u97E9\u56FD02|\u676D\u97E9|1.5X"
-  - "FG\u97E9\u56FD03|\u676D\u97E9|1.5X"
-  - "FG\u65E5\u672C01|\u676D\u65E5|1.5X"
-  - "FG\u65E5\u672C02|\u676D\u65E5|1.5X"
-  - "FG\u65E5\u672C03|\u676D\u65E5|1.5X"
-  - "FG\u53F0\u6E7E01|\u676D\u53F0|1.5X"
-  - "FG\u53F0\u6E7E02|\u676D\u53F0|1.5X"
-  - "FG\u53F0\u6E7E03|\u676D\u53F0|1.5X"
-  - "FG\u7F8E\u56FD01|\u676D\u7F8E|1.5X"
-  - "FG\u7F8E\u56FD02|\u676D\u7F8E|1.5X"
-  - "FG\u7F8E\u56FD03|\u676D\u7F8E|1.5X"
-  - "FG\u9999\u6E2F01|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F02|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F03|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F04|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F05|\u6CF8\u6E2F|1.5X"
-  - "FG\u9999\u6E2F06|\u6CF8\u6E2F|1.5X"
-  - "FG\u65B0\u52A0\u576101|\u6CF8\u65B0|1.5X"
-  - "FG\u65B0\u52A0\u576102|\u6CF8\u65B0|1.5X"
-  - "FG\u65B0\u52A0\u576103|\u6CF8\u65B0|1.5X"
-  - "FG\u97E9\u56FD01|\u6CF8\u97E9|1.5X"
-  - "FG\u97E9\u56FD02|\u6CF8\u97E9|1.5X"
-  - "FG\u97E9\u56FD03|\u6CF8\u97E9|1.5X"
-  - "FG\u65E5\u672C01|\u6CF8\u65E5|1.5X"
-  - "FG\u65E5\u672C02|\u6CF8\u65E5|1.5X"
-  - "FG\u65E5\u672C03|\u6CF8\u65E5|1.5X"
-  - "FG\u53F0\u6E7E01|\u6CF8\u53F0|1.5X"
-  - "FG\u53F0\u6E7E02|\u6CF8\u53F0|1.5X"
-  - "FG\u53F0\u6E7E03|\u6CF8\u53F0|1.5X"
-  - "FG\u7F8E\u56FD01|\u6CF8\u7F8E|1.5X"
-  - "FG\u7F8E\u56FD02|\u6CF8\u7F8E|1.5X"
-  - "FG\u7F8E\u56FD03|\u6CF8\u7F8E|1.5X"
-  - "\u8FEA\u62DC01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  - "\u82F1\u56FD01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  - "\u5FB7\u56FD01|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  - "\u5370\u5EA601|\u76F4\u8FDE\u8DEF\u7EBFX0.5"
-  - "V1 \u9999\u6E2F \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u53F0\u6E7E \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u65E5\u672C \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u65B0\u52A0\u5761 \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u97E9\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u7F8E\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u6CF0\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u8D8A\u5357 \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u5FB7\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u82F1\u56FD \u79FB\u52A8\u4E13\u7EBF"
-  - "V1 \u6FB3\u5927\u5229\u4E9A \u79FB\u52A8\u4E13\u7EBF"
-  - "V2 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u65E5\u672C \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF"
-  - "V2 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u8D8A\u5357 \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u82F1\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V2 \u6FB3\u5927\u5229\u4E9A \u534E\u5357\u4E13\u7EBF"
-  - "V3 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u9999\u6E2F \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u53F0\u6E7E \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u65E5\u672C \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u65E5\u672C \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u65B0\u52A0\u5761 \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF-NF"
-  - "V3 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF-NF"
-  - "V3 \u7F8E\u56FD \u534E\u4E1C\u4E13\u7EBF-NF"
-  - "V3 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V3 \u8D8A\u5357 \u534E\u4E2D\u4E13\u7EBF"
-  - "V3 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
-  - "V3 \u82F1\u56FD \u534E\u4E1C\u4E13\u7EBF"
-  - "V3 \u6FB3\u5927\u5229\u4E9A \u534E\u4E1C\u4E13\u7EBF"
+  - "\u9999\u6E2F-02"
+  - "\u7F8E\u56FD-03"
   - "\u9999\u6E2F01 | HKBN | 1X"
   - "\u7F8E\u56FD01 | 1X"
   - "\u65B0\u52A0\u576101 | 1X"
   - "\u53F0\u6E7E01 | 1X"
   - "\u9999\u6E2F02 | 1X"
-  - "\u9999\u6E2F 1 LV0-HK"
+  - "TW-\u677F\u68652-2"
   - DIRECT
   type: select
 - name: Domestic
