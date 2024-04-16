@@ -1,871 +1,682 @@
 proxies:
-- name: "\u9999\u6E2F01 | HKBN | 1X"
-  password: 9e7160b8-effd-4e7b-9fcc-94ee2f7dc85f
-  port: 42030
-  server: hkg01.service.nahidacloud.top
-  skip-cert-verify: true
-  sni: hkg01.service.nahidacloud.top
-  type: trojan
-  udp: true
-- name: "\u7F8E\u56FD01 | 1X"
-  password: 9e7160b8-effd-4e7b-9fcc-94ee2f7dc85f
-  port: 443
-  server: us01.service.nahidacloud.top
-  skip-cert-verify: true
-  sni: us01.service.nahidacloud.top
-  type: trojan
-  udp: true
-- name: "\u65B0\u52A0\u576101 | 1X"
-  password: 9e7160b8-effd-4e7b-9fcc-94ee2f7dc85f
-  port: 11000
-  server: sg01.service.nahidacloud.top
-  skip-cert-verify: true
-  sni: sg01.service.nahidacloud.top
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u53F0\u6E7E01 | 1X"
-  password: 9e7160b8-effd-4e7b-9fcc-94ee2f7dc85f
-  port: 33143
+  name: "\u65B0\u52A0\u576103"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15627
   server: sz.zj.my.1.76po.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u9999\u6E2F02 | 1X"
-  password: 9e7160b8-effd-4e7b-9fcc-94ee2f7dc85f
-  port: 51663
+  name: "\u7F8E\u56FD02"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15628
   server: sz.zj.my.1.76po.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 41926
-  server: cm-03.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 48529
-  server: 04cm.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 59306
-  server: 02cm.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 53515
-  server: cm01.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-05"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 53070
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-06"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 40765
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-07"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 13035
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u9999\u6E2F-08"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 14781
-  server: video.tikonline.live
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u53F0\u6E7E-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 21821
-  server: cm-03.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u53F0\u6E7E-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 36280
-  server: 04cm.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u53F0\u6E7E-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 32787
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u53F0\u6E7E-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 34076
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u53F0\u6E7E-05"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 50607
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u53F0\u6E7E-06"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 13274
-  server: video.tikonline.live
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 46945
-  server: cm-03.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 25650
-  server: 04cm.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 22066
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 38733
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-05"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 62750
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-06"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 55378
-  server: sdcu01.duiha.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u7F8E\u56FD-07"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 12073
-  server: video.tikonline.live
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 29215
-  server: cm-03.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 24576
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 26043
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 41986
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-05"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 28610
-  server: sdcu01.duiha.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65B0\u52A0\u5761-06"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 13947
-  server: video.tikonline.live
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 33408
-  server: cm-03.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 16654
-  server: video.tikonline.live
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 43029
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 56402
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-05"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 26607
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u65E5\u672C-06"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 37736
-  server: sdcu01.duiha.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 10498
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 22720
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 18080
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 43938
-  server: sdcu01.duiha.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD-05"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 17391
-  server: video.tikonline.live
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CF0\u56FD-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 41186
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CF0\u56FD-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 17029
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CF0\u56FD-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 63239
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CF0\u56FD-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 14709
-  server: video.tikonline.live
+- cipher: chacha20-ietf-poly1305
+  name: "\u82F1\u56FD02"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15629
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u82F1\u56FD-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 13155
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u82F1\u56FD-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 39371
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u82F1\u56FD-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 43909
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u82F1\u56FD-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 16749
-  server: video.tikonline.live
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CD5\u56FD-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 33977
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CD5\u56FD-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 54220
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CD5\u56FD-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 54751
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\u6CD5\u56FD-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 12739
-  server: video.tikonline.live
+  name: "\u9999\u6E2F01"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15630
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u5FB7\u56FD-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 45499
-  server: szcm01.qingqiu.buzz
+  name: "\u9999\u6E2F02"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15631
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u5FB7\u56FD-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 33480
-  server: nbcm01.qingqiu.buzz
+  name: "\u7F8E\u56FD01"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15532
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u5FB7\u56FD-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 28615
-  server: nbct02.qingqiu.buzz
+  name: "\u53F0\u6E7E01"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15632
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u5FB7\u56FD-03 2"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 16617
-  server: video.tikonline.live
+  name: "\u82F1\u56FD01"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15634
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: "\u963F\u8054\u914B-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 56711
-  server: szcm01.qingqiu.buzz
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2F03"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15635
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: "\u963F\u8054\u914B-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 47583
-  server: nbcm01.qingqiu.buzz
+- cipher: chacha20-ietf-poly1305
+  name: "\u65B0\u52A0\u576101"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15636
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: "\u963F\u8054\u914B-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 13414
-  server: nbct02.qingqiu.buzz
+- cipher: chacha20-ietf-poly1305
+  name: "\u65B0\u52A0\u576102"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15637
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: "\u963F\u8054\u914B-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 16286
-  server: video.tikonline.live
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2F04"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15638
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: "\u5DF4\u57FA\u65AF\u5766-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 14808
-  server: szcm01.qingqiu.buzz
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2F05"
+  password: a688ddc9-1fe8-490c-8335-53690c69d964
+  port: 15639
+  server: sz.zj.my.1.76po.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: "\u5DF4\u57FA\u65AF\u5766-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 20227
-  server: nbcm01.qingqiu.buzz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "V1 \u9999\u6E2F \u79FB\u52A8\u4E13\u7EBF"
+  port: 31011
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u5DF4\u57FA\u65AF\u5766-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 59783
-  server: nbct02.qingqiu.buzz
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u53F0\u6E7E \u79FB\u52A8\u4E13\u7EBF"
+  port: 31021
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u5DF4\u57FA\u65AF\u5766-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 13488
-  server: video.tikonline.live
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u65E5\u672C \u79FB\u52A8\u4E13\u7EBF"
+  port: 31031
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u6FB3\u5927\u5229\u4E9A-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 41633
-  server: szcm01.qingqiu.buzz
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u65B0\u52A0\u5761 \u79FB\u52A8\u4E13\u7EBF"
+  port: 31041
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u6FB3\u5927\u5229\u4E9A-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 17660
-  server: nbcm01.qingqiu.buzz
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u97E9\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  port: 31051
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u6FB3\u5927\u5229\u4E9A-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 61324
-  server: nbct02.qingqiu.buzz
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u7F8E\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  port: 31061
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u6FB3\u5927\u5229\u4E9A-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 12188
-  server: video.tikonline.live
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u6CF0\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  port: 31081
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u4FC4\u7F57\u65AF-01"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 61678
-  server: szcm01.qingqiu.buzz
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u8D8A\u5357 \u79FB\u52A8\u4E13\u7EBF"
+  port: 31082
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u4FC4\u7F57\u65AF-02"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 32633
-  server: nbcm01.qingqiu.buzz
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u5FB7\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  port: 31091
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u4FC4\u7F57\u65AF-03"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 57397
-  server: nbct02.qingqiu.buzz
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u82F1\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  port: 31092
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u4FC4\u7F57\u65AF-04"
-  password: 5f1e7ff6-9fad-454e-906c-ca533cb3bc15
-  port: 16662
-  server: video.tikonline.live
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V1 \u6FB3\u5927\u5229\u4E9A \u79FB\u52A8\u4E13\u7EBF"
+  port: 31093
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u9999\u6E2F A HK"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 21881
-  server: hk1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF"
+  port: 31011
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u9999\u6E2F B HK"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 22881
-  server: hk2.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF"
+  port: 31111
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u65E5\u672C A JP"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 47100
-  server: jp1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF"
+  port: 31021
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u65E5\u672C B JP"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 47101
-  server: jp2.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF"
+  port: 31121
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD A US"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 31881
-  server: usa1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u65E5\u672C \u534E\u5357\u4E13\u7EBF"
+  port: 31031
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD B US"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 32881
-  server: usa2.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF"
+  port: 31131
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD A KR"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35101
-  server: kr1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF"
+  port: 31041
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u97E9\u56FD B KR"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35102
-  server: kr2.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF"
+  port: 31141
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u53F0\u6E7E A TW"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35109
-  server: tw1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF"
+  port: 31061
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u53F0\u6E7E B TW"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35110
-  server: tw2.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF"
+  port: 31161
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u65B0\u52A0\u5761 A SG"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35105
-  server: sg1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
+  port: 31181
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\u65B0\u52A0\u5761 B SG"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35106
-  server: sg2.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u8D8A\u5357 \u534E\u5357\u4E13\u7EBF"
+  port: 31182
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u6CF0\u56FD TH BIZ"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35613
-  server: th.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
+  port: 31191
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u8D8A\u5357 VN | BIZ"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35601
-  server: vn1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u82F1\u56FD \u534E\u5357\u4E13\u7EBF"
+  port: 31192
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u82F1\u56FD UK | BIZ"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35605
-  server: uk1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V2 \u6FB3\u5927\u5229\u4E9A \u534E\u5357\u4E13\u7EBF"
+  port: 31193
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u5FB7\u56FD DE | BIZ"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35607
-  server: ger1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF-NF"
+  port: 31011
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u6CD5\u56FD FR BIZ"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35611
-  server: fr1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF-NF"
+  port: 31411
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u4FC4\u7F57\u65AF RU BIZ"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35612
-  server: ru.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u9999\u6E2F \u534E\u4E1C\u4E13\u7EBF-NF"
+  port: 31411
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: "\u9A6C\u6765\u897F\u4E9A MY | BIZ"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 35603
-  server: mas1.iepl.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF-NF"
+  port: 31021
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "TW \u6D77\u5916\u7528\u6237"
-  password: 910143a4-9ddd-4cf8-b9d5-de2c8510088b
-  port: 36881
-  server: tw.cooc.icu
-  type: ss
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF-NF"
+  port: 31421
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u53F0\u6E7E \u534E\u4E1C\u4E13\u7EBF-NF"
+  port: 31421
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u65E5\u672C \u534E\u5357\u4E13\u7EBF-NF"
+  port: 31331
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF-NF"
+  port: 31431
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u65E5\u672C \u534E\u4E1C\u4E13\u7EBF-NF"
+  port: 31431
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF-NF"
+  port: 31341
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF-NF"
+  port: 31441
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u65B0\u52A0\u5761 \u534E\u4E1C\u4E13\u7EBF-NF"
+  port: 31441
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF-NF"
+  port: 31361
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF-NF"
+  port: 31461
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u7F8E\u56FD \u534E\u4E1C\u4E13\u7EBF-NF"
+  port: 31461
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
+  port: 31481
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u8D8A\u5357 \u534E\u4E2D\u4E13\u7EBF"
+  port: 31482
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
+  port: 31491
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u82F1\u56FD \u534E\u4E1C\u4E13\u7EBF"
+  port: 31492
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
+- alterId: 0
+  cipher: auto
+  name: "V3 \u6FB3\u5927\u5229\u4E9A \u534E\u4E1C\u4E13\u7EBF"
+  port: 31493
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a122001a-2609-4f14-8e5e-861f1f5e1f99
 proxy-groups:
 - interval: 300
   name: Auto
   proxies:
-  - "\u9999\u6E2F01 | HKBN | 1X"
-  - "\u7F8E\u56FD01 | 1X"
-  - "\u65B0\u52A0\u576101 | 1X"
-  - "\u53F0\u6E7E01 | 1X"
-  - "\u9999\u6E2F02 | 1X"
-  - "\u9999\u6E2F-01"
-  - "\u9999\u6E2F-02"
-  - "\u9999\u6E2F-03"
-  - "\u9999\u6E2F-04"
-  - "\u9999\u6E2F-05"
-  - "\u9999\u6E2F-06"
-  - "\u9999\u6E2F-07"
-  - "\u9999\u6E2F-08"
-  - "\u53F0\u6E7E-01"
-  - "\u53F0\u6E7E-02"
-  - "\u53F0\u6E7E-03"
-  - "\u53F0\u6E7E-04"
-  - "\u53F0\u6E7E-05"
-  - "\u53F0\u6E7E-06"
-  - "\u7F8E\u56FD-01"
-  - "\u7F8E\u56FD-02"
-  - "\u7F8E\u56FD-03"
-  - "\u7F8E\u56FD-04"
-  - "\u7F8E\u56FD-05"
-  - "\u7F8E\u56FD-06"
-  - "\u7F8E\u56FD-07"
-  - "\u65B0\u52A0\u5761-01"
-  - "\u65B0\u52A0\u5761-02"
-  - "\u65B0\u52A0\u5761-03"
-  - "\u65B0\u52A0\u5761-04"
-  - "\u65B0\u52A0\u5761-05"
-  - "\u65B0\u52A0\u5761-06"
-  - "\u65E5\u672C-01"
-  - "\u65E5\u672C-02"
-  - "\u65E5\u672C-03"
-  - "\u65E5\u672C-04"
-  - "\u65E5\u672C-05"
-  - "\u65E5\u672C-06"
-  - "\u97E9\u56FD-01"
-  - "\u97E9\u56FD-02"
-  - "\u97E9\u56FD-03"
-  - "\u97E9\u56FD-04"
-  - "\u97E9\u56FD-05"
-  - "\u6CF0\u56FD-01"
-  - "\u6CF0\u56FD-02"
-  - "\u6CF0\u56FD-03"
-  - "\u6CF0\u56FD-04"
-  - "\u82F1\u56FD-01"
-  - "\u82F1\u56FD-02"
-  - "\u82F1\u56FD-03"
-  - "\u82F1\u56FD-04"
-  - "\u6CD5\u56FD-01"
-  - "\u6CD5\u56FD-02"
-  - "\u6CD5\u56FD-03"
-  - "\u6CD5\u56FD-04"
-  - "\u5FB7\u56FD-01"
-  - "\u5FB7\u56FD-02"
-  - "\u5FB7\u56FD-03"
-  - "\u5FB7\u56FD-03 2"
-  - "\u963F\u8054\u914B-01"
-  - "\u963F\u8054\u914B-02"
-  - "\u963F\u8054\u914B-03"
-  - "\u963F\u8054\u914B-04"
-  - "\u5DF4\u57FA\u65AF\u5766-01"
-  - "\u5DF4\u57FA\u65AF\u5766-02"
-  - "\u5DF4\u57FA\u65AF\u5766-03"
-  - "\u5DF4\u57FA\u65AF\u5766-04"
-  - "\u6FB3\u5927\u5229\u4E9A-01"
-  - "\u6FB3\u5927\u5229\u4E9A-02"
-  - "\u6FB3\u5927\u5229\u4E9A-03"
-  - "\u6FB3\u5927\u5229\u4E9A-04"
-  - "\u4FC4\u7F57\u65AF-01"
-  - "\u4FC4\u7F57\u65AF-02"
-  - "\u4FC4\u7F57\u65AF-03"
-  - "\u4FC4\u7F57\u65AF-04"
-  - "\u9999\u6E2F A HK"
-  - "\u9999\u6E2F B HK"
-  - "\u65E5\u672C A JP"
-  - "\u65E5\u672C B JP"
-  - "\u7F8E\u56FD A US"
-  - "\u7F8E\u56FD B US"
-  - "\u97E9\u56FD A KR"
-  - "\u97E9\u56FD B KR"
-  - "\u53F0\u6E7E A TW"
-  - "\u53F0\u6E7E B TW"
-  - "\u65B0\u52A0\u5761 A SG"
-  - "\u65B0\u52A0\u5761 B SG"
-  - "\u6CF0\u56FD TH BIZ"
-  - "\u8D8A\u5357 VN | BIZ"
-  - "\u82F1\u56FD UK | BIZ"
-  - "\u5FB7\u56FD DE | BIZ"
-  - "\u6CD5\u56FD FR BIZ"
-  - "\u4FC4\u7F57\u65AF RU BIZ"
-  - "\u9A6C\u6765\u897F\u4E9A MY | BIZ"
-  - "TW \u6D77\u5916\u7528\u6237"
+  - "\u65B0\u52A0\u576103"
+  - "\u7F8E\u56FD02"
+  - "\u82F1\u56FD02"
+  - "\u9999\u6E2F01"
+  - "\u9999\u6E2F02"
+  - "\u7F8E\u56FD01"
+  - "\u53F0\u6E7E01"
+  - "\u82F1\u56FD01"
+  - "\u9999\u6E2F03"
+  - "\u65B0\u52A0\u576101"
+  - "\u65B0\u52A0\u576102"
+  - "\u9999\u6E2F04"
+  - "\u9999\u6E2F05"
+  - "V1 \u9999\u6E2F \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u53F0\u6E7E \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u65E5\u672C \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u65B0\u52A0\u5761 \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u97E9\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u7F8E\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u6CF0\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u8D8A\u5357 \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u5FB7\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u82F1\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u6FB3\u5927\u5229\u4E9A \u79FB\u52A8\u4E13\u7EBF"
+  - "V2 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u65E5\u672C \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u8D8A\u5357 \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u82F1\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u6FB3\u5927\u5229\u4E9A \u534E\u5357\u4E13\u7EBF"
+  - "V3 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u9999\u6E2F \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u53F0\u6E7E \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u65E5\u672C \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u65E5\u672C \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u65B0\u52A0\u5761 \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u7F8E\u56FD \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V3 \u8D8A\u5357 \u534E\u4E2D\u4E13\u7EBF"
+  - "V3 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V3 \u82F1\u56FD \u534E\u4E1C\u4E13\u7EBF"
+  - "V3 \u6FB3\u5927\u5229\u4E9A \u534E\u4E1C\u4E13\u7EBF"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: Proxy
   proxies:
   - Auto
-  - "\u9999\u6E2F01 | HKBN | 1X"
-  - "\u7F8E\u56FD01 | 1X"
-  - "\u65B0\u52A0\u576101 | 1X"
-  - "\u53F0\u6E7E01 | 1X"
-  - "\u9999\u6E2F02 | 1X"
-  - "\u9999\u6E2F-01"
-  - "\u9999\u6E2F-02"
-  - "\u9999\u6E2F-03"
-  - "\u9999\u6E2F-04"
-  - "\u9999\u6E2F-05"
-  - "\u9999\u6E2F-06"
-  - "\u9999\u6E2F-07"
-  - "\u9999\u6E2F-08"
-  - "\u53F0\u6E7E-01"
-  - "\u53F0\u6E7E-02"
-  - "\u53F0\u6E7E-03"
-  - "\u53F0\u6E7E-04"
-  - "\u53F0\u6E7E-05"
-  - "\u53F0\u6E7E-06"
-  - "\u7F8E\u56FD-01"
-  - "\u7F8E\u56FD-02"
-  - "\u7F8E\u56FD-03"
-  - "\u7F8E\u56FD-04"
-  - "\u7F8E\u56FD-05"
-  - "\u7F8E\u56FD-06"
-  - "\u7F8E\u56FD-07"
-  - "\u65B0\u52A0\u5761-01"
-  - "\u65B0\u52A0\u5761-02"
-  - "\u65B0\u52A0\u5761-03"
-  - "\u65B0\u52A0\u5761-04"
-  - "\u65B0\u52A0\u5761-05"
-  - "\u65B0\u52A0\u5761-06"
-  - "\u65E5\u672C-01"
-  - "\u65E5\u672C-02"
-  - "\u65E5\u672C-03"
-  - "\u65E5\u672C-04"
-  - "\u65E5\u672C-05"
-  - "\u65E5\u672C-06"
-  - "\u97E9\u56FD-01"
-  - "\u97E9\u56FD-02"
-  - "\u97E9\u56FD-03"
-  - "\u97E9\u56FD-04"
-  - "\u97E9\u56FD-05"
-  - "\u6CF0\u56FD-01"
-  - "\u6CF0\u56FD-02"
-  - "\u6CF0\u56FD-03"
-  - "\u6CF0\u56FD-04"
-  - "\u82F1\u56FD-01"
-  - "\u82F1\u56FD-02"
-  - "\u82F1\u56FD-03"
-  - "\u82F1\u56FD-04"
-  - "\u6CD5\u56FD-01"
-  - "\u6CD5\u56FD-02"
-  - "\u6CD5\u56FD-03"
-  - "\u6CD5\u56FD-04"
-  - "\u5FB7\u56FD-01"
-  - "\u5FB7\u56FD-02"
-  - "\u5FB7\u56FD-03"
-  - "\u5FB7\u56FD-03 2"
-  - "\u963F\u8054\u914B-01"
-  - "\u963F\u8054\u914B-02"
-  - "\u963F\u8054\u914B-03"
-  - "\u963F\u8054\u914B-04"
-  - "\u5DF4\u57FA\u65AF\u5766-01"
-  - "\u5DF4\u57FA\u65AF\u5766-02"
-  - "\u5DF4\u57FA\u65AF\u5766-03"
-  - "\u5DF4\u57FA\u65AF\u5766-04"
-  - "\u6FB3\u5927\u5229\u4E9A-01"
-  - "\u6FB3\u5927\u5229\u4E9A-02"
-  - "\u6FB3\u5927\u5229\u4E9A-03"
-  - "\u6FB3\u5927\u5229\u4E9A-04"
-  - "\u4FC4\u7F57\u65AF-01"
-  - "\u4FC4\u7F57\u65AF-02"
-  - "\u4FC4\u7F57\u65AF-03"
-  - "\u4FC4\u7F57\u65AF-04"
-  - "\u9999\u6E2F A HK"
-  - "\u9999\u6E2F B HK"
-  - "\u65E5\u672C A JP"
-  - "\u65E5\u672C B JP"
-  - "\u7F8E\u56FD A US"
-  - "\u7F8E\u56FD B US"
-  - "\u97E9\u56FD A KR"
-  - "\u97E9\u56FD B KR"
-  - "\u53F0\u6E7E A TW"
-  - "\u53F0\u6E7E B TW"
-  - "\u65B0\u52A0\u5761 A SG"
-  - "\u65B0\u52A0\u5761 B SG"
-  - "\u6CF0\u56FD TH BIZ"
-  - "\u8D8A\u5357 VN | BIZ"
-  - "\u82F1\u56FD UK | BIZ"
-  - "\u5FB7\u56FD DE | BIZ"
-  - "\u6CD5\u56FD FR BIZ"
-  - "\u4FC4\u7F57\u65AF RU BIZ"
-  - "\u9A6C\u6765\u897F\u4E9A MY | BIZ"
-  - "TW \u6D77\u5916\u7528\u6237"
+  - "\u65B0\u52A0\u576103"
+  - "\u7F8E\u56FD02"
+  - "\u82F1\u56FD02"
+  - "\u9999\u6E2F01"
+  - "\u9999\u6E2F02"
+  - "\u7F8E\u56FD01"
+  - "\u53F0\u6E7E01"
+  - "\u82F1\u56FD01"
+  - "\u9999\u6E2F03"
+  - "\u65B0\u52A0\u576101"
+  - "\u65B0\u52A0\u576102"
+  - "\u9999\u6E2F04"
+  - "\u9999\u6E2F05"
+  - "V1 \u9999\u6E2F \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u53F0\u6E7E \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u65E5\u672C \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u65B0\u52A0\u5761 \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u97E9\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u7F8E\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u6CF0\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u8D8A\u5357 \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u5FB7\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u82F1\u56FD \u79FB\u52A8\u4E13\u7EBF"
+  - "V1 \u6FB3\u5927\u5229\u4E9A \u79FB\u52A8\u4E13\u7EBF"
+  - "V2 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u65E5\u672C \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF"
+  - "V2 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u8D8A\u5357 \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u82F1\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V2 \u6FB3\u5927\u5229\u4E9A \u534E\u5357\u4E13\u7EBF"
+  - "V3 \u9999\u6E2F \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u9999\u6E2F \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u9999\u6E2F \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u53F0\u6E7E \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u53F0\u6E7E \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u53F0\u6E7E \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u65E5\u672C \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u65E5\u672C \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u65E5\u672C \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u65B0\u52A0\u5761 \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u65B0\u52A0\u5761 \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u65B0\u52A0\u5761 \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u7F8E\u56FD \u534E\u5357\u4E13\u7EBF-NF"
+  - "V3 \u7F8E\u56FD \u534E\u4E2D\u4E13\u7EBF-NF"
+  - "V3 \u7F8E\u56FD \u534E\u4E1C\u4E13\u7EBF-NF"
+  - "V3 \u6CF0\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V3 \u8D8A\u5357 \u534E\u4E2D\u4E13\u7EBF"
+  - "V3 \u5FB7\u56FD \u534E\u5357\u4E13\u7EBF"
+  - "V3 \u82F1\u56FD \u534E\u4E1C\u4E13\u7EBF"
+  - "V3 \u6FB3\u5927\u5229\u4E9A \u534E\u4E1C\u4E13\u7EBF"
   - DIRECT
   type: select
 - name: Domestic
