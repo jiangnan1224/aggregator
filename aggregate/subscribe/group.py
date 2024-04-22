@@ -112,7 +112,7 @@ def push_to_deer(key):
     pushdeer.send_markdown(title, desp=msg)
 
 # 使用示例
-original_config_path = 'proxies.yaml'
+original_config_path = 'data/proxies.yaml'
 updated_config_path = 'proxies.yaml'
 update_clash_config(original_config_path, updated_config_path)
 secret_key = sys.argv[1]
