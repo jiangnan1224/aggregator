@@ -1,41 +1,41 @@
 proxies:
 - cipher: aes-256-gcm
   name: 01-GPT
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 19723
   server: hkhw01.goodyun.buzz
   type: ss
   udp: true
 - name: "01\u51E4\u51F0\u57CEAMD2"
-  password: 72bba241-2d09-4372-b9c0-112d3db50624
+  password: 12c34e12-19c7-4791-a677-5476c22aa201
   port: 443
   server: 01amd2.1365365.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: "04\u65E5\u672C\u5927\u962AAMD"
-  password: 72bba241-2d09-4372-b9c0-112d3db50624
+  password: 12c34e12-19c7-4791-a677-5476c22aa201
   port: 443
   server: 04amd.1365365.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: "11\u5723\u4F55\u585EAMD1"
-  password: 72bba241-2d09-4372-b9c0-112d3db50624
+  password: 12c34e12-19c7-4791-a677-5476c22aa201
   port: 443
   server: 11amd1.1365365.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: "11\u5723\u4F55\u585EARM1"
-  password: 72bba241-2d09-4372-b9c0-112d3db50624
+  password: 12c34e12-19c7-4791-a677-5476c22aa201
   port: 443
   server: 11arm1.1365365.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: "15\u5DF4\u897F\u5723\u4FDD\u7F57AMD"
-  password: 72bba241-2d09-4372-b9c0-112d3db50624
+  password: 12c34e12-19c7-4791-a677-5476c22aa201
   port: 443
   server: 15amd1.1365365.xyz
   skip-cert-verify: true
@@ -52,28 +52,35 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 72bba241-2d09-4372-b9c0-112d3db50624
+  uuid: 12c34e12-19c7-4791-a677-5476c22aa201
   ws-opts:
     headers:
       Host: 36amd.1365365.xyz
     path: /
 - name: "55\u963F\u4EC0\u672CARM"
-  password: 72bba241-2d09-4372-b9c0-112d3db50624
+  password: 12c34e12-19c7-4791-a677-5476c22aa201
   port: 443
   server: 55arm.1365365.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: "59\u6625\u5DDDAMD2"
-  password: 72bba241-2d09-4372-b9c0-112d3db50624
+  password: 12c34e12-19c7-4791-a677-5476c22aa201
   port: 443
   server: 59amd2.1365365.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  name: "AU | \u6FB3\u6D3201"
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
+  port: 15018
+  server: jd.qlyjd.cc
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: "A\u53F0\u6E7E"
-  password: 3d60306c-7230-4463-8dbe-c2a094d7347f
+  password: 33ef28f3-d62c-4bec-92ec-c6fedb62b150
   port: 37070
   server: hinet-wap.myddns.me
   type: ss
@@ -88,97 +95,152 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3d60306c-7230-4463-8dbe-c2a094d7347f
+  uuid: 33ef28f3-d62c-4bec-92ec-c6fedb62b150
   ws-opts:
     headers:
       Host: usfree.1234585.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: "HK | \u9999\u6E2F LB"
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: d84zxlca209ol.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 23ab09e0-1701-4b7b-b75b-1b9d86e5a307
+  ws-opts:
+    headers:
+      Host: d84zxlca209ol.cloudfront.net
+    path: /stream
 - cipher: aes-128-gcm
   name: "HK | \u9999\u6E2F01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15000
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
+  name: "HK | \u9999\u6E2F02"
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
+  port: 15001
+  server: jd.qlyjd.cc
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
   name: "HK | \u9999\u6E2F03"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15002
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "HP | \u83F2\u5F8B\u5BBE01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15013
   server: jd.qlyjd.cc
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "JP | \u65E5\u672C LB"
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  servername: dd7xps5fj6dfo.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 23ab09e0-1701-4b7b-b75b-1b9d86e5a307
+  ws-opts:
+    headers:
+      Host: dd7xps5fj6dfo.cloudfront.net
+    path: /stream
 - cipher: aes-128-gcm
   name: "JP | \u65E5\u672C01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15006
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "JP | \u65E5\u672C02"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15007
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "JP | \u65E5\u672C03"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15008
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "KR | \u97E9\u56FD01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15014
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "PK | \u5DF4\u57FA\u65AF\u576601"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15017
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "RU | \u4FC4\u7F57\u65AF01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15016
   server: jd.qlyjd.cc
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "SG | \u65B0\u52A0\u5761 LB"
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  servername: d1nal26v8jyfe2.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 23ab09e0-1701-4b7b-b75b-1b9d86e5a307
+  ws-opts:
+    headers:
+      Host: d1nal26v8jyfe2.cloudfront.net
+    path: /stream
 - cipher: aes-128-gcm
   name: "SG | \u65B0\u52A0\u576101"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15003
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "SG | \u65B0\u52A0\u576102"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15004
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "SG | \u65B0\u52A0\u576103"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15005
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - name: "SPECAIL|1.5X \u65E5\u672C\u8C37\u6B4CWIFI"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17739
   server: jpss.pptv-tv.store
   skip-cert-verify: true
@@ -186,7 +248,7 @@ proxies:
   type: trojan
   udp: true
 - name: "SPECAIL|1.5X \u82F1\u56FD\u8C37\u6B4CWIFI"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17728
   server: gbs.pptv-tv.store
   skip-cert-verify: true
@@ -195,27 +257,27 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   name: "TH | \u6CF0\u56FD01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15012
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "TR | \u571F\u8033\u517601"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15020
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "TW | \u53F0\u6E7E01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
   port: 15011
   server: jd.qlyjd.cc
   type: ss
   udp: true
 - name: "TW-\u53F0\u4E2D1-1"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 13989
   server: c11.twtc.dynu.net
   skip-cert-verify: true
@@ -223,7 +285,7 @@ proxies:
   type: trojan
   udp: true
 - name: "TW-\u53F0\u4E2D1-2"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 14656
   server: nc12.twtc.dynu.net
   skip-cert-verify: true
@@ -231,7 +293,7 @@ proxies:
   type: trojan
   udp: true
 - name: "TW-\u677F\u68651-2"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 9755
   server: b12.ntbq.dynu.net
   skip-cert-verify: true
@@ -239,7 +301,7 @@ proxies:
   type: trojan
   udp: true
 - name: "TW-\u677F\u68651-3"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 9489
   server: b13.ntbq.dynu.net
   skip-cert-verify: true
@@ -247,7 +309,7 @@ proxies:
   type: trojan
   udp: true
 - name: "TW-\u677F\u68652-2"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 19489
   server: b22.ntbq.dynu.net
   skip-cert-verify: true
@@ -255,7 +317,7 @@ proxies:
   type: trojan
   udp: true
 - name: "TW-\u677F\u68652-3"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 18701
   server: b23.ntbq.dynu.net
   skip-cert-verify: true
@@ -263,7 +325,7 @@ proxies:
   type: trojan
   udp: true
 - name: "TW-\u677F\u68652-4"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 3271
   server: b24.ntbq.dynu.net
   skip-cert-verify: true
@@ -271,7 +333,7 @@ proxies:
   type: trojan
   udp: true
 - name: "TW-\u6843\u56ED1-1"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 13761
   server: ty11t.twty.dynu.net
   skip-cert-verify: true
@@ -279,7 +341,7 @@ proxies:
   type: trojan
   udp: true
 - name: "TW-\u6843\u56ED1-2"
-  password: f0227dfc-5c8a-458d-b980-915528900b0d
+  password: bc8056cd-cca7-4ebc-b281-0b6661c87b29
   port: 18912
   server: ty12t.twty.dynu.net
   skip-cert-verify: true
@@ -288,38 +350,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: "TW|\u53F0\u7063HINET-B"
-  port: 37653
-  server: bytevirt-hinet.gosurfing.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8a7f89de-5c0c-426f-8698-ae4a5a3b9f18
-- cipher: aes-128-gcm
-  name: "UK | \u82F1\u56FD01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
-  port: 15015
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "US | \u7F8E\u56FD01"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
-  port: 15009
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "US | \u7F8E\u56FD02"
-  password: c93c32c7-aa84-480c-8749-0d163e3c3f83
-  port: 15010
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: US-SNY
+  name: U9-CBM
   network: ws
   port: 443
   server: 48.sking.app
@@ -327,13 +358,34 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 570cb0a9-9179-4758-948b-2710508136ce
+  uuid: f495e2f9-390f-45a1-9e4c-d9124a84fba3
   ws-opts:
     headers:
       Host: 48.sking.app
     path: /
+- cipher: aes-128-gcm
+  name: "UK | \u82F1\u56FD01"
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
+  port: 15015
+  server: jd.qlyjd.cc
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: "US | \u7F8E\u56FD01"
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
+  port: 15009
+  server: jd.qlyjd.cc
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: "US | \u7F8E\u56FD02"
+  password: 81cba511-41e4-42f2-b5b7-77b3fb0aae4a
+  port: 15010
+  server: jd.qlyjd.cc
+  type: ss
+  udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u4E4C\u514B\u5170"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17749
   server: ua1.pptv-tv.store
   skip-cert-verify: true
@@ -341,15 +393,23 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u4FC4\u7F57\u65AF"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17615
   server: ru1.pptv-tv.store
   skip-cert-verify: true
   sni: data.52daishu.life
   type: trojan
   udp: true
+- name: "\u4E13\u7EBFVIP1|1X \u5370\u5EA6\u5C3C\u897F\u4E9A"
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
+  port: 17618
+  server: id1.pptv-tv.store
+  skip-cert-verify: true
+  sni: data.52daishu.life
+  type: trojan
+  udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u53F0\u6E7E1"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17786
   server: tw1.pptv-tv.store
   skip-cert-verify: true
@@ -357,7 +417,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u53F0\u6E7E2"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17787
   server: tw2.pptv-tv.store
   skip-cert-verify: true
@@ -365,7 +425,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u571F\u8033\u5176"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17748
   server: tr1.pptv-tv.store
   skip-cert-verify: true
@@ -373,7 +433,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u5FB7\u56FD"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17755
   server: de1.pptv-tv.store
   skip-cert-verify: true
@@ -381,7 +441,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u6089\u5C3C1"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17753
   server: au1.pptv-tv.store
   skip-cert-verify: true
@@ -389,7 +449,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u6089\u5C3C2"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17754
   server: au2.pptv-tv.store
   skip-cert-verify: true
@@ -397,7 +457,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u65B0\u52A0\u57611"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17711
   server: sg1.pptv-tv.store
   skip-cert-verify: true
@@ -405,7 +465,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u65B0\u52A0\u57612"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17712
   server: sg2.pptv-tv.store
   skip-cert-verify: true
@@ -413,7 +473,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u65B0\u52A0\u57613"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17713
   server: sg3.pptv-tv.store
   skip-cert-verify: true
@@ -421,7 +481,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u65E5\u672C1"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17721
   server: jp1.pptv-tv.store
   skip-cert-verify: true
@@ -429,7 +489,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u65E5\u672C2"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17722
   server: jp2.pptv-tv.store
   skip-cert-verify: true
@@ -437,7 +497,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u65E5\u672C3"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17723
   server: jp3.pptv-tv.store
   skip-cert-verify: true
@@ -445,7 +505,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u6CD5\u56FD"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17759
   server: fr1.pptv-tv.store
   skip-cert-verify: true
@@ -453,7 +513,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u745E\u58EB"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17725
   server: ch1.pptv-tv.store
   skip-cert-verify: true
@@ -461,7 +521,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u7F8E\u56FD1"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17741
   server: us1.pptv-tv.store
   skip-cert-verify: true
@@ -469,7 +529,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u7F8E\u56FD2"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17742
   server: us2.pptv-tv.store
   skip-cert-verify: true
@@ -477,7 +537,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u7F8E\u56FD3"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17743
   server: us3.pptv-tv.store
   skip-cert-verify: true
@@ -485,7 +545,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u82F1\u56FD"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17756
   server: gb1.pptv-tv.store
   skip-cert-verify: true
@@ -493,7 +553,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u8377\u5170"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17609
   server: nl1.pptv-tv.store
   skip-cert-verify: true
@@ -501,7 +561,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u897F\u73ED\u7259"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17730
   server: es1.pptv-tv.store
   skip-cert-verify: true
@@ -509,7 +569,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u8D8A\u53571"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17751
   server: vn1.pptv-tv.store
   skip-cert-verify: true
@@ -517,7 +577,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u8D8A\u53572"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17752
   server: vn2.pptv-tv.store
   skip-cert-verify: true
@@ -525,7 +585,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u8FEA\u62DC"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17720
   server: ae1.pptv-tv.store
   skip-cert-verify: true
@@ -533,7 +593,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u97E9\u56FD1"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17731
   server: kr1.pptv-tv.store
   skip-cert-verify: true
@@ -541,7 +601,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u97E9\u56FD2"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17732
   server: kr2.pptv-tv.store
   skip-cert-verify: true
@@ -549,7 +609,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u9999\u6E2F1"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17701
   server: hk1.iqiyi-tv.site
   skip-cert-verify: true
@@ -557,7 +617,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u4E13\u7EBFVIP1|1X \u9999\u6E2F2"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17702
   server: hk2.iqiyi-tv.site
   skip-cert-verify: true
@@ -566,76 +626,76 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC01"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 35584
   server: jp01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC02"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 22169
   server: jp02.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC03"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32003
   server: jp03.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC04"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32004
   server: jp04.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC05"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32005
   server: jp05.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC06"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32006
   server: jp06.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC07"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32117
   server: jp07.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC08"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32008
   server: jp08.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC09"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32009
   server: jp09.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u4E1C\u4EAC10"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32010
   server: jp10.goodyun.buzz
   type: ss
   udp: true
 - name: "\u4E3B"
-  password: 16f2cae8-6af8-4370-8acb-11be7770fff0
+  password: b9dc027b-e488-4992-82e5-06f1a25a207f
   port: 17703
   server: hk3.iqiyi-tv.site
   skip-cert-verify: true
@@ -644,48 +704,41 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   name: "\u4F0A\u65AF\u5766\u5E03\u5C1401"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 36641
   server: tr01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: "\u51E4\u51F0\u57CE03"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
-  port: 18693
-  server: us03.goodyun.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: "\u53F0\u531701"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 45481
   server: tw01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u53F0\u531702"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 33595
   server: tw02.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u53F0\u531703"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 12931
   server: tw03.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u53F0\u531704"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 35360
   server: tw04.goodyun.buzz
   type: ss
   udp: true
 - name: "\u53F0\u6E7E|DIRECT"
-  password: 34834fc1-c9cc-44ba-b4ca-29e74887ebbd
+  password: e371c36d-e288-4096-b6d3-0b8bbe20a739
   port: 30089
   server: 210.79.155.137
   skip-cert-verify: true
@@ -694,21 +747,21 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   name: "\u5723\u4F55\u585E01"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 16192
   server: us01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u5723\u4F55\u585E02"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 10502
   server: us02.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u5723\u4F55\u585E06"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 34828
   server: us06.goodyun.buzz
   type: ss
@@ -723,41 +776,41 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3d60306c-7230-4463-8dbe-c2a094d7347f
+  uuid: 33ef28f3-d62c-4bec-92ec-c6fedb62b150
   ws-opts:
     headers:
       Host: gi.1234585.xyz
     path: /
 - cipher: aes-256-gcm
   name: "\u5DF4\u9ECE01"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 43301
   server: fr01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u5DF4\u9ECE02"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 43302
   server: fr02.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u5E03\u5B9C\u8BFA\u65AF\u827E\u5229\u65AF01"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 54003
   server: ar01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u62C9\u5404\u65AF01"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 52301
   server: ng01.goodyun.buzz
   type: ss
   udp: true
 - name: "\u65B0\u52A0\u576101 | 1X"
-  password: 456bb305-c8be-4cdf-868a-e138248c02d2
+  password: 33e0cb37-48ab-4d0f-9a0f-4024deb966e3
   port: 11000
   server: sg01.service.nahidacloud.top
   skip-cert-verify: true
@@ -766,57 +819,35 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   name: "\u65B0\u52A0\u576104"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 26187
   server: sg04.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u65B0\u52A0\u576105"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 26188
   server: sg05.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u65B0\u52A0\u576106"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 26189
   server: sg06.goodyun.buzz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\u65B0\u52A0\u5761B \u4E3B\u529B\u96A7\u9053 1X"
-  password: b19b86b9-fe1c-4d2d-b783-54a5dc1a87da
-  port: 14878
-  server: sh.zj.my1.2.76po.com
-  type: ss
-  udp: true
 - name: "\u65B0\u52A0\u5761|DIRECT"
-  password: 34834fc1-c9cc-44ba-b4ca-29e74887ebbd
+  password: e371c36d-e288-4096-b6d3-0b8bbe20a739
   port: 30089
   server: 103.248.228.59
   skip-cert-verify: true
   sni: zgzwz.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: "\u65E0\u4EFB\u4F55\u6280\u672F\u652F\u6301"
-  network: ws
-  port: 2086
-  server: freejc.133141.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9f648b2c-3fa9-4cdd-8dc7-fede736a81db
-  ws-opts:
-    headers:
-      Host: japan.freejc.test.freecarriertraffic.133141.xyz
-    path: /?ed=2048
 - name: "\u65E5\u672C|DIRECT"
-  password: 34834fc1-c9cc-44ba-b4ca-29e74887ebbd
+  password: e371c36d-e288-4096-b6d3-0b8bbe20a739
   port: 30089
   server: 116.206.92.93
   skip-cert-verify: true
@@ -825,56 +856,102 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   name: "\u6CD5\u5170\u514B\u798F01"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 26804
   server: de01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u6CD5\u5170\u514B\u798F02"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 37775
   server: de02.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: "\u6D1B\u6749\u77F604"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
-  port: 12197
-  server: us04.goodyun.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: "\u6D1B\u6749\u77F605"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 20042
   server: us05.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u73ED\u52A0\u7F57\u5C1401"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 36643
   server: in01.goodyun.buzz
   type: ss
   udp: true
+- name: "\u7F8E\u56FD01 | 1X"
+  password: 33e0cb37-48ab-4d0f-9a0f-4024deb966e3
+  port: 443
+  server: us01.service.nahidacloud.top
+  skip-cert-verify: true
+  sni: us01.service.nahidacloud.top
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: "\u7F8E\u56FD-01"
+  name: "\u7F8E\u56FD4"
   network: ws
   port: 80
-  server: oracle-kr-01.av5.buzz
+  server: www.pcmag.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 03b6d4e5-b4c5-4b84-984f-55ebc7286f59
+  uuid: 02ba60d5-679a-4255-807f-fe351cd413c2
   ws-opts:
     headers:
-      Host: mg1.t1csyun.shop
-    path: /a1
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD5"
+  network: ws
+  port: 80
+  server: www.digitalocean.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 02ba60d5-679a-4255-807f-fe351cd413c2
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD6"
+  network: ws
+  port: 80
+  server: www.glassdoor.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 02ba60d5-679a-4255-807f-fe351cd413c2
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD7"
+  network: ws
+  port: 80
+  server: www.udemy.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 02ba60d5-679a-4255-807f-fe351cd413c2
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
 - name: "\u7F8E\u56FD|DIRECT"
-  password: 34834fc1-c9cc-44ba-b4ca-29e74887ebbd
+  password: e371c36d-e288-4096-b6d3-0b8bbe20a739
   port: 30089
   server: 154.21.207.222
   skip-cert-verify: true
@@ -883,55 +960,48 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   name: "\u8003\u6587\u578201-BBC\u4F18\u5316"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 33401
   server: uk01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u8003\u6587\u578202-BBC\u4F18\u5316"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 33402
   server: uk01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u83AB\u65AF\u79D101"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 36631
   server: ru01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u963F\u59C6\u65AF\u7279\u4E3901"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 36621
   server: nl01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u97E9\u56FD-A"
-  password: 3d60306c-7230-4463-8dbe-c2a094d7347f
+  password: 33ef28f3-d62c-4bec-92ec-c6fedb62b150
   port: 45502
   server: kr-seoul-oracle-f0b622.ip1.shop
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: "\u97E9\u56FDA"
-  password: a3ef82b5-61e8-4bab-9e33-f89a82a6f74a
-  port: 35161
-  server: as.digilan.top
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: "\u9996\u5C1401"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 36656
   server: kr01.goodyun.buzz
   type: ss
   udp: true
 - name: "\u9999\u6E2F01 | HKBN | 1X"
-  password: 456bb305-c8be-4cdf-868a-e138248c02d2
+  password: 33e0cb37-48ab-4d0f-9a0f-4024deb966e3
   port: 42030
   server: hkg01.service.nahidacloud.top
   skip-cert-verify: true
@@ -940,151 +1010,47 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F06"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 41080
   server: hk06.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F07"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 23292
   server: hk07.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F08"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 47739
   server: hk08.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F09"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 41247
   server: hk09.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F10"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 19722
   server: hk10.goodyun.buzz
   type: ss
   udp: true
-- name: "02 \u9650 30 MBS-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
-  port: 30061
+- name: "01 \u9650 30 MBS-1B"
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
+  port: 30060
   server: v03.gutingting.com
   skip-cert-verify: true
-  sni: gpt02.6kk.org
+  sni: gpt01.6kk.org
   type: trojan
   udp: true
-- name: "02 \u9650 30 MBS-1B-GPT"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
-  port: 30061
-  server: v03.gutingting.com
-  skip-cert-verify: true
-  sni: gpt02.6kk.org
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "HK | \u9999\u6E2F LB-1A"
-  network: ws
-  port: 443
-  server: hkcft01.xqc.best
-  servername: d84zxlca209ol.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 44c4c6f5-9b2c-41c1-bdbc-f76d7d8325aa
-  ws-opts:
-    headers:
-      Host: d84zxlca209ol.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: "HK | \u9999\u6E2F LB-1B"
-  network: ws
-  port: 443
-  server: hkcft01.xqc.best
-  servername: d84zxlca209ol.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1e8626f1-5502-4f45-a00e-dbf7693bc607
-  ws-opts:
-    headers:
-      Host: d84zxlca209ol.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: "JP | \u65E5\u672C LB-1A"
-  network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  servername: dd7xps5fj6dfo.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 44c4c6f5-9b2c-41c1-bdbc-f76d7d8325aa
-  ws-opts:
-    headers:
-      Host: dd7xps5fj6dfo.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: "JP | \u65E5\u672C LB-1B"
-  network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  servername: dd7xps5fj6dfo.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1e8626f1-5502-4f45-a00e-dbf7693bc607
-  ws-opts:
-    headers:
-      Host: dd7xps5fj6dfo.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: "SG | \u65B0\u52A0\u5761 LB-1A"
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d1nal26v8jyfe2.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 44c4c6f5-9b2c-41c1-bdbc-f76d7d8325aa
-  ws-opts:
-    headers:
-      Host: d1nal26v8jyfe2.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: "SG | \u65B0\u52A0\u5761 LB-1B"
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d1nal26v8jyfe2.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1e8626f1-5502-4f45-a00e-dbf7693bc607
-  ws-opts:
-    headers:
-      Host: d1nal26v8jyfe2.cloudfront.net
-    path: /stream
 - alterId: 0
   cipher: auto
   name: TEMPORARILY-WORDVLOG-1A
@@ -1095,7 +1061,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a0f55695-a61d-4bb9-ad6e-8845d3547775
+  uuid: d8c65dd0-f8a3-41f9-a312-89a5a77fb3c3
   ws-opts:
     headers:
       Host: de05-v6.us.pisces.eu.org
@@ -1110,7 +1076,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 673eaa25-06df-4d31-98aa-91e79ad9d5bb
+  uuid: 57b3d686-dad2-45f9-af72-9e8690b67a8b
   ws-opts:
     headers:
       Host: de05-v6.us.pisces.eu.org
@@ -1126,7 +1092,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a0f55695-a61d-4bb9-ad6e-8845d3547775
+  uuid: d8c65dd0-f8a3-41f9-a312-89a5a77fb3c3
   ws-opts:
     headers:
       Host: londonengland-unitedkingdom.pisces.eu.org
@@ -1142,7 +1108,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 673eaa25-06df-4d31-98aa-91e79ad9d5bb
+  uuid: 57b3d686-dad2-45f9-af72-9e8690b67a8b
   ws-opts:
     headers:
       Host: londonengland-unitedkingdom.pisces.eu.org
@@ -1157,7 +1123,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a0f55695-a61d-4bb9-ad6e-8845d3547775
+  uuid: d8c65dd0-f8a3-41f9-a312-89a5a77fb3c3
   ws-opts:
     headers:
       Host: losangeles.us.pisces.eu.org
@@ -1172,7 +1138,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 673eaa25-06df-4d31-98aa-91e79ad9d5bb
+  uuid: 57b3d686-dad2-45f9-af72-9e8690b67a8b
   ws-opts:
     headers:
       Host: losangeles.us.pisces.eu.org
@@ -1187,7 +1153,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a0f55695-a61d-4bb9-ad6e-8845d3547775
+  uuid: d8c65dd0-f8a3-41f9-a312-89a5a77fb3c3
   ws-opts:
     headers:
       Host: 26022940dc1234123455cf1.us.pisces.eu.org
@@ -1202,7 +1168,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 673eaa25-06df-4d31-98aa-91e79ad9d5bb
+  uuid: 57b3d686-dad2-45f9-af72-9e8690b67a8b
   ws-opts:
     headers:
       Host: 26022940dc1234123455cf1.us.pisces.eu.org
@@ -1217,7 +1183,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a0f55695-a61d-4bb9-ad6e-8845d3547775
+  uuid: d8c65dd0-f8a3-41f9-a312-89a5a77fb3c3
   ws-opts:
     headers:
       Host: losangeles.sanjose.xhzshop.link
@@ -1232,7 +1198,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 673eaa25-06df-4d31-98aa-91e79ad9d5bb
+  uuid: 57b3d686-dad2-45f9-af72-9e8690b67a8b
   ws-opts:
     headers:
       Host: losangeles.sanjose.xhzshop.link
@@ -1247,7 +1213,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a0f55695-a61d-4bb9-ad6e-8845d3547775
+  uuid: d8c65dd0-f8a3-41f9-a312-89a5a77fb3c3
   ws-opts:
     headers:
       Host: losangeles.sanjose.xhzshop.link
@@ -1262,7 +1228,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 673eaa25-06df-4d31-98aa-91e79ad9d5bb
+  uuid: 57b3d686-dad2-45f9-af72-9e8690b67a8b
   ws-opts:
     headers:
       Host: losangeles.sanjose.xhzshop.link
@@ -1277,7 +1243,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a0f55695-a61d-4bb9-ad6e-8845d3547775
+  uuid: d8c65dd0-f8a3-41f9-a312-89a5a77fb3c3
   ws-opts:
     headers:
       Host: losangeles.sanjose.xhzshop.link
@@ -1292,43 +1258,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 673eaa25-06df-4d31-98aa-91e79ad9d5bb
+  uuid: 57b3d686-dad2-45f9-af72-9e8690b67a8b
   ws-opts:
     headers:
       Host: losangeles.sanjose.xhzshop.link
     path: /microsoft?ed=2048
-- alterId: 0
-  cipher: auto
-  name: US-PHILADELPHIA-IPV6-1A
-  network: ws
-  port: 2086
-  server: cewcastlecdn2111.internetcdn.ggff.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a0f55695-a61d-4bb9-ad6e-8845d3547775
-  ws-opts:
-    headers:
-      Host: us01-v6.pisces.eu.org
-    path: /update.microsoft.com?ed=2048
-- alterId: 0
-  cipher: auto
-  name: US-PHILADELPHIA-IPV6-1B
-  network: ws
-  port: 2086
-  server: cewcastlecdn2111.internetcdn.ggff.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 673eaa25-06df-4d31-98aa-91e79ad9d5bb
-  ws-opts:
-    headers:
-      Host: us01-v6.pisces.eu.org
-    path: /update.microsoft.com?ed=2048
 - name: "\u52A0\u62FF\u5927 01 \u7EBF\u8DEF3-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 30068
   server: v03.gutingting.com
   skip-cert-verify: true
@@ -1345,7 +1281,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: in.shuimu.space
@@ -1360,11 +1296,19 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: in.shuimu.space
     path: /
+- name: "\u53F0\u6E7EHINET 04 \u7EBF\u8DEF3-1A"
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
+  port: 30003
+  server: v03.gutingting.com
+  skip-cert-verify: true
+  sni: v2tw01.fuqiangren.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\u5927\u962A 01-1A"
@@ -1375,7 +1319,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1efb9f68-b58c-4801-9b4c-3bbd47f2d0ff
+  uuid: 89b06d8a-30f4-4ba3-bfbf-b8b07a588d2a
   ws-opts:
     headers:
       Host: db01.iepl1.me
@@ -1390,7 +1334,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 163db204-a06b-4883-a4c3-1d4bb7792e11
+  uuid: 6448ad14-8d84-435f-aade-07c4cd0a4cf4
   ws-opts:
     headers:
       Host: db01.iepl1.me
@@ -1405,7 +1349,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1efb9f68-b58c-4801-9b4c-3bbd47f2d0ff
+  uuid: 89b06d8a-30f4-4ba3-bfbf-b8b07a588d2a
   ws-opts:
     headers:
       Host: de01.iepl1.me
@@ -1420,42 +1364,42 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 163db204-a06b-4883-a4c3-1d4bb7792e11
+  uuid: 6448ad14-8d84-435f-aade-07c4cd0a4cf4
   ws-opts:
     headers:
       Host: de01.iepl1.me
     path: /CAT
-- name: "\u65B0\u52A0\u5761 04 \u7EBF\u8DEF3-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
-  port: 20223
+- name: "\u65B0\u52A0\u5761 02 \u7EBF\u8DEF3-1A"
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
+  port: 30050
   server: v03.gutingting.com
   skip-cert-verify: true
-  sni: v2sg01.fuqiangren.com
+  sni: v2sg02.fuqiangren.com
   type: trojan
   udp: true
 - cipher: aes-256-gcm
   name: "\u65B0\u52A0\u576101-1B"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32128
   server: sg01.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u65B0\u52A0\u576102-1B"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 37868
   server: sg02.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u65B0\u52A0\u576103-1B"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 43771
   server: sg03.goodyun.buzz
   type: ss
   udp: true
 - name: "\u65E5\u672C 01 \u76F4\u8FDE-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 20220
   server: zzjp01.gutingting.com
   skip-cert-verify: true
@@ -1463,7 +1407,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u65E5\u672C 01 \u76F4\u8FDE-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 20220
   server: zzjp01.gutingting.com
   skip-cert-verify: true
@@ -1471,7 +1415,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u65E5\u672C 02 \u76F4\u8FDE-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 20221
   server: zzjp01.gutingting.com
   skip-cert-verify: true
@@ -1479,15 +1423,15 @@ proxies:
   type: trojan
   udp: true
 - name: "\u65E5\u672C 02 \u76F4\u8FDE-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 20221
   server: zzjp01.gutingting.com
   skip-cert-verify: true
   sni: zzjp01.gutingting.com
   type: trojan
   udp: true
-- name: "\u6CF0\u56FD 01 \u7EBF\u8DEF3-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+- name: "\u6CF0\u56FD 01 \u7EBF\u8DEF3-1B"
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 30052
   server: v03.gutingting.com
   skip-cert-verify: true
@@ -1504,7 +1448,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: aua.shuimu.space
@@ -1519,43 +1463,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: aub.shuimu.space
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD-1A"
-  network: ws
-  port: 30067
-  server: usb1.u.sm-node.gay
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
-  ws-opts:
-    headers:
-      Host: usc.shuimu.space
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD-1B"
-  network: ws
-  port: 30076
-  server: usb2.u.sm-node.gay
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
-  ws-opts:
-    headers:
-      Host: usd.shuimu.space
-    path: /
 - name: "\u7F8E\u56FD 01 \u76F4\u8FDE-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 20220
   server: zzus01.gutingting.com
   skip-cert-verify: true
@@ -1563,21 +1477,36 @@ proxies:
   type: trojan
   udp: true
 - name: "\u7F8E\u56FD 01 \u76F4\u8FDE-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 20220
   server: zzus01.gutingting.com
   skip-cert-verify: true
   sni: zzus01.gutingting.com
   type: trojan
   udp: true
-- name: "\u7F8E\u56FD 03 \u7EBF\u8DEF3-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
-  port: 30048
+- name: "\u7F8E\u56FD 01 \u7EBF\u8DEF3-1A"
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
+  port: 20224
   server: v03.gutingting.com
   skip-cert-verify: true
-  sni: v1usa01.6kk.org
+  sni: v2usa01.fuqiangren.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD3-1B"
+  network: ws
+  port: 80
+  server: fbi.gov
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 02ba60d5-679a-4255-807f-fe351cd413c2
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
 - alterId: 0
   cipher: auto
   name: "\u82F1\u56FD-1A"
@@ -1588,7 +1517,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: gbb.shuimu.space
@@ -1603,25 +1532,17 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: gbc.shuimu.space
     path: /
 - name: "\u82F1\u56FD 03 \u7EBF\u8DEF3-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 30040
   server: v03.gutingting.com
   skip-cert-verify: true
   sni: uk01.6kk.org
-  type: trojan
-  udp: true
-- name: "\u82F1\u56FD 04 \u7EBF\u8DEF3-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
-  port: 30041
-  server: v03.gutingting.com
-  skip-cert-verify: true
-  sni: sni.gutingting.com
   type: trojan
   udp: true
 - alterId: 0
@@ -1634,7 +1555,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: hla.shuimu.space
@@ -1649,13 +1570,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: hlb.shuimu.space
     path: /
 - name: "\u83F2\u5F8B\u5BBE 01 \u7EBF\u8DEF3-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 30053
   server: v03.gutingting.com
   skip-cert-verify: true
@@ -1672,7 +1593,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: vn1.shuimu.space
@@ -1687,27 +1608,11 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: vn2.shuimu.space
     path: /
-- name: "\u8D8A\u5357 01 \u7EBF\u8DEF3-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
-  port: 30051
-  server: v03.gutingting.com
-  skip-cert-verify: true
-  sni: v2vn01.fuqiangren.com
-  type: trojan
-  udp: true
-- name: "\u8D8A\u5357 01 \u7EBF\u8DEF3-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
-  port: 30051
-  server: v03.gutingting.com
-  skip-cert-verify: true
-  sni: v2vn01.fuqiangren.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: "\u97E9\u56FD 01-1A"
@@ -1718,7 +1623,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1efb9f68-b58c-4801-9b4c-3bbd47f2d0ff
+  uuid: 89b06d8a-30f4-4ba3-bfbf-b8b07a588d2a
   ws-opts:
     headers:
       Host: kr01.iepl1.me
@@ -1733,13 +1638,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 163db204-a06b-4883-a4c3-1d4bb7792e11
+  uuid: 6448ad14-8d84-435f-aade-07c4cd0a4cf4
   ws-opts:
     headers:
       Host: kr01.iepl1.me
     path: /CAT
 - name: "\u9999\u6E2F 01 \u7EBF\u8DEF1-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 30017
   server: v01.gutingting.com
   skip-cert-verify: true
@@ -1747,11 +1652,27 @@ proxies:
   type: trojan
   udp: true
 - name: "\u9999\u6E2F 01 \u7EBF\u8DEF1-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 30017
   server: v01.gutingting.com
   skip-cert-verify: true
   sni: v2hgc01.fuqiangren.com
+  type: trojan
+  udp: true
+- name: "\u9999\u6E2F 03 \u7EBF\u8DEF1-1A"
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
+  port: 30007
+  server: v01.gutingting.com
+  skip-cert-verify: true
+  sni: hktn2.6kk.org
+  type: trojan
+  udp: true
+- name: "\u9999\u6E2F 03 \u7EBF\u8DEF1-1B"
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
+  port: 30007
+  server: v01.gutingting.com
+  skip-cert-verify: true
+  sni: hktn2.6kk.org
   type: trojan
   udp: true
 - alterId: 0
@@ -1763,7 +1684,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: eed365b6-3d31-4ba6-923e-84d20d8fbde1
+  uuid: b9aefc57-6ed0-4634-ba2f-2fd122d97c0f
 - alterId: 0
   cipher: auto
   name: "\u9999\u6E2F 1 LV0-HK-1B"
@@ -1773,7 +1694,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ea9ad005-85d6-46e0-b32c-9e36a4539d03
+  uuid: fb797eda-5db7-4e99-bacc-91330cee6695
 - alterId: 0
   cipher: auto
   name: "\u9999\u6E2F-HK-1-1A"
@@ -1784,7 +1705,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 017cc380-45bb-4ed6-8431-ecdade45f3a3
+  uuid: 2ce9a20e-34e5-499f-96ea-2593170809c1
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
@@ -1799,7 +1720,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 72f31049-377c-40ab-b2be-e986eca5a749
+  uuid: e3317898-15d4-46e9-bb20-71a4a7ec8a7e
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
@@ -1814,7 +1735,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 017cc380-45bb-4ed6-8431-ecdade45f3a3
+  uuid: 2ce9a20e-34e5-499f-96ea-2593170809c1
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
@@ -1829,41 +1750,49 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 72f31049-377c-40ab-b2be-e986eca5a749
+  uuid: e3317898-15d4-46e9-bb20-71a4a7ec8a7e
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
     path: /ryinsocksv2board
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F02-1B"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 28749
   server: hk02.goodyun.buzz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\u9999\u6E2F03-1B"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 32238
   server: hk03.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F04-1B"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 15530
   server: hk04.goodyun.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F05-1B"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 30005
   server: hk05.goodyun.buzz
   type: ss
   udp: true
+- name: "\u9999\u6E2FF1 01 \u7EBF\u8DEF1-1A"
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
+  port: 30072
+  server: v01.gutingting.com
+  skip-cert-verify: true
+  sni: sk02.6kk.org
+  type: trojan
+  udp: true
 - name: "\u9999\u6E2FF1 01 \u7EBF\u8DEF1-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 30072
   server: v01.gutingting.com
   skip-cert-verify: true
@@ -1871,7 +1800,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u9999\u6E2FF1 02 \u7EBF\u8DEF1-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 30073
   server: v01.gutingting.com
   skip-cert-verify: true
@@ -1879,15 +1808,23 @@ proxies:
   type: trojan
   udp: true
 - name: "\u9999\u6E2FF1 02 \u7EBF\u8DEF1-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 30073
   server: v01.gutingting.com
   skip-cert-verify: true
   sni: sk05.6kk.org
   type: trojan
   udp: true
+- name: "\u9999\u6E2FF1 03 \u7EBF\u8DEF1-1A"
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
+  port: 30074
+  server: v01.gutingting.com
+  skip-cert-verify: true
+  sni: sk06.6kk.org
+  type: trojan
+  udp: true
 - name: "\u9999\u6E2FF1 03 \u7EBF\u8DEF1-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 30074
   server: v01.gutingting.com
   skip-cert-verify: true
@@ -1895,7 +1832,7 @@ proxies:
   type: trojan
   udp: true
 - name: "\u9999\u6E2FF1 04 \u7EBF\u8DEF1-1A"
-  password: 4d9084cf-2b61-4e86-a18d-5b2bcecd3872
+  password: 1ce0bf5c-271f-4a71-b2de-b1ca252a462d
   port: 30071
   server: v01.gutingting.com
   skip-cert-verify: true
@@ -1903,20 +1840,60 @@ proxies:
   type: trojan
   udp: true
 - name: "\u9999\u6E2FF1 04 \u7EBF\u8DEF1-1B"
-  password: d8d4cdcd-fa5e-44ae-9693-63ece6359459
+  password: ff362f1c-b9cf-43b8-8c02-4d220d24e3cf
   port: 30071
   server: v01.gutingting.com
   skip-cert-verify: true
   sni: sk07.6kk.org
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD2-1C"
+  network: ws
+  port: 80
+  server: whatismyipaddress.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 02ba60d5-679a-4255-807f-fe351cd413c2
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
 - cipher: aes-256-gcm
   name: "\u9999\u6E2F01-1C"
-  password: 33a2a7d5-7ff1-49a2-9ff6-c9472f23a7a9
+  password: 4a10b00a-da11-48fb-be7a-7b5187f4a8a5
   port: 30969
   server: hk01.goodyun.buzz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u9999\u6E2F3-1C"
+  port: 10010
+  server: xg3.tcity8.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6931866c-4223-47cc-80d7-5f8a9915a84c
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD1-1D"
+  network: ws
+  port: 80
+  server: 104.19.173.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 02ba60d5-679a-4255-807f-fe351cd413c2
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
 - alterId: 0
   cipher: auto
   name: "\u53F0\u6E7E-1B"
@@ -1927,7 +1904,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: twb.shuimu.space
@@ -1942,7 +1919,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: twc.shuimu.space
@@ -1957,7 +1934,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: twd.shuimu.space
@@ -1972,7 +1949,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: twe.shuimu.space
@@ -1987,7 +1964,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: sgb.shuimu.space
@@ -2002,7 +1979,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: sgc.shuimu.space
@@ -2017,7 +1994,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: sgd.shuimu.space
@@ -2032,7 +2009,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: sge.shuimu.space
@@ -2047,7 +2024,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: sgf.shuimu.space
@@ -2062,7 +2039,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: jpb.shuimu.space
@@ -2077,7 +2054,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: jpc.shuimu.space
@@ -2092,7 +2069,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: jpd.shuimu.space
@@ -2107,7 +2084,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: jpe.shuimu.space
@@ -2122,35 +2099,35 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: jpf.shuimu.space
     path: /
 - cipher: aes-256-gcm
   name: "\u97E9\u56FD-1B"
-  password: 4714406a-11b2-4b3d-9783-da164193330f
+  password: 307088d3-33b2-448b-846c-7012e000de8b
   port: 4852
   server: xhlkr.rymfq.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u97E9\u56FD-1C"
-  password: 69cc061d-02f5-4f9e-b021-21eb6341d523
+  password: 6ca668f7-f830-416f-a6f9-e932e931a320
   port: 4852
   server: xhlkr.rymfq.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u97E9\u56FD-1D"
-  password: 2239cc49-9321-4ac9-93f1-cde7dcf8d277
+  password: 1f86f2fe-5c2d-4f9a-ae2f-d1c55ca38bf1
   port: 4852
   server: xhlkr.rymfq.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: "\u97E9\u56FD-1E"
-  password: 4925b011-2f2a-4f87-8c34-cc4dae8d9652
+  password: b61737da-acf7-4842-bef1-82116966d715
   port: 4852
   server: xhlkr.rymfq.com
   type: ss
@@ -2164,20 +2141,10 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7cf31fe9-2bc2-43ac-86ac-03dc7873344f
+  uuid: de3a4a9a-e3ce-471b-a260-3872c2319f92
 - alterId: 0
   cipher: auto
   name: "\u9999\u6E2F-1B"
-  port: 10010
-  server: xg1.tcity8.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 019df2ca-296f-4bfe-bc53-6435db15a902
-- alterId: 0
-  cipher: auto
-  name: "\u9999\u6E2F-1C"
   network: ws
   port: 30073
   server: hkb1.h.sm-node.gay
@@ -2185,14 +2152,14 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: hkb.shuimu.space
     path: /
 - alterId: 0
   cipher: auto
-  name: "\u9999\u6E2F-1D"
+  name: "\u9999\u6E2F-1C"
   network: ws
   port: 30074
   server: hkb2.h.sm-node.gay
@@ -2200,14 +2167,14 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: hkc.shuimu.space
     path: /
 - alterId: 0
   cipher: auto
-  name: "\u9999\u6E2F-1E"
+  name: "\u9999\u6E2F-1D"
   network: ws
   port: 30063
   server: hkb3.h.sm-node.gay
@@ -2215,14 +2182,29 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: hkd.shuimu.space
     path: /
 - alterId: 0
   cipher: auto
-  name: "\u9999\u6E2F-1G"
+  name: "\u9999\u6E2F-1E"
+  network: ws
+  port: 30054
+  server: hkb4.h.sm-node.gay
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
+  ws-opts:
+    headers:
+      Host: hke.shuimu.space
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u9999\u6E2F-1F"
   network: ws
   port: 30075
   server: hkb5.h.sm-node.gay
@@ -2230,11 +2212,21 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bfbf3b72-c5c9-457c-b466-988476ccaa31
+  uuid: 3c0b8671-2a58-4f2e-8a23-324187d308c2
   ws-opts:
     headers:
       Host: hkf.shuimu.space
     path: /
+- alterId: 0
+  cipher: auto
+  name: "\u9999\u6E2F-1G"
+  port: 10010
+  server: xg1.tcity8.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6931866c-4223-47cc-80d7-5f8a9915a84c
 proxy-groups:
 - interval: 300
   name: Auto
@@ -2248,17 +2240,22 @@ proxy-groups:
   - "36\u6089\u5C3CAMD-VMESS"
   - "55\u963F\u4EC0\u672CARM"
   - "59\u6625\u5DDDAMD2"
+  - "AU | \u6FB3\u6D3201"
   - "A\u53F0\u6E7E"
   - "G\u7F8E\u56FD-\u514D\u8D39"
+  - "HK | \u9999\u6E2F LB"
   - "HK | \u9999\u6E2F01"
+  - "HK | \u9999\u6E2F02"
   - "HK | \u9999\u6E2F03"
   - "HP | \u83F2\u5F8B\u5BBE01"
+  - "JP | \u65E5\u672C LB"
   - "JP | \u65E5\u672C01"
   - "JP | \u65E5\u672C02"
   - "JP | \u65E5\u672C03"
   - "KR | \u97E9\u56FD01"
   - "PK | \u5DF4\u57FA\u65AF\u576601"
   - "RU | \u4FC4\u7F57\u65AF01"
+  - "SG | \u65B0\u52A0\u5761 LB"
   - "SG | \u65B0\u52A0\u576101"
   - "SG | \u65B0\u52A0\u576102"
   - "SG | \u65B0\u52A0\u576103"
@@ -2276,13 +2273,13 @@ proxy-groups:
   - "TW-\u677F\u68652-4"
   - "TW-\u6843\u56ED1-1"
   - "TW-\u6843\u56ED1-2"
-  - "TW|\u53F0\u7063HINET-B"
+  - U9-CBM
   - "UK | \u82F1\u56FD01"
   - "US | \u7F8E\u56FD01"
   - "US | \u7F8E\u56FD02"
-  - US-SNY
   - "\u4E13\u7EBFVIP1|1X \u4E4C\u514B\u5170"
   - "\u4E13\u7EBFVIP1|1X \u4FC4\u7F57\u65AF"
+  - "\u4E13\u7EBFVIP1|1X \u5370\u5EA6\u5C3C\u897F\u4E9A"
   - "\u4E13\u7EBFVIP1|1X \u53F0\u6E7E1"
   - "\u4E13\u7EBFVIP1|1X \u53F0\u6E7E2"
   - "\u4E13\u7EBFVIP1|1X \u571F\u8033\u5176"
@@ -2322,7 +2319,6 @@ proxy-groups:
   - "\u4E1C\u4EAC10"
   - "\u4E3B"
   - "\u4F0A\u65AF\u5766\u5E03\u5C1401"
-  - "\u51E4\u51F0\u57CE03"
   - "\u53F0\u531701"
   - "\u53F0\u531702"
   - "\u53F0\u531703"
@@ -2340,23 +2336,23 @@ proxy-groups:
   - "\u65B0\u52A0\u576104"
   - "\u65B0\u52A0\u576105"
   - "\u65B0\u52A0\u576106"
-  - "\u65B0\u52A0\u5761B \u4E3B\u529B\u96A7\u9053 1X"
   - "\u65B0\u52A0\u5761|DIRECT"
-  - "\u65E0\u4EFB\u4F55\u6280\u672F\u652F\u6301"
   - "\u65E5\u672C|DIRECT"
   - "\u6CD5\u5170\u514B\u798F01"
   - "\u6CD5\u5170\u514B\u798F02"
-  - "\u6D1B\u6749\u77F604"
   - "\u6D1B\u6749\u77F605"
   - "\u73ED\u52A0\u7F57\u5C1401"
-  - "\u7F8E\u56FD-01"
+  - "\u7F8E\u56FD01 | 1X"
+  - "\u7F8E\u56FD4"
+  - "\u7F8E\u56FD5"
+  - "\u7F8E\u56FD6"
+  - "\u7F8E\u56FD7"
   - "\u7F8E\u56FD|DIRECT"
   - "\u8003\u6587\u578201-BBC\u4F18\u5316"
   - "\u8003\u6587\u578202-BBC\u4F18\u5316"
   - "\u83AB\u65AF\u79D101"
   - "\u963F\u59C6\u65AF\u7279\u4E3901"
   - "\u97E9\u56FD-A"
-  - "\u97E9\u56FDA"
   - "\u9996\u5C1401"
   - "\u9999\u6E2F01 | HKBN | 1X"
   - "\u9999\u6E2F06"
@@ -2364,14 +2360,7 @@ proxy-groups:
   - "\u9999\u6E2F08"
   - "\u9999\u6E2F09"
   - "\u9999\u6E2F10"
-  - "02 \u9650 30 MBS-1A"
-  - "02 \u9650 30 MBS-1B-GPT"
-  - "HK | \u9999\u6E2F LB-1A"
-  - "HK | \u9999\u6E2F LB-1B"
-  - "JP | \u65E5\u672C LB-1A"
-  - "JP | \u65E5\u672C LB-1B"
-  - "SG | \u65B0\u52A0\u5761 LB-1A"
-  - "SG | \u65B0\u52A0\u5761 LB-1B"
+  - "01 \u9650 30 MBS-1B"
   - TEMPORARILY-WORDVLOG-1A
   - TEMPORARILY-WORDVLOG-1B
   - UK-LONDON-02-1A
@@ -2386,16 +2375,15 @@ proxy-groups:
   - US-NEWYORK3-1B
   - US-NEWYORK5-1A
   - US-NEWYORK5-1B
-  - US-PHILADELPHIA-IPV6-1A
-  - US-PHILADELPHIA-IPV6-1B
   - "\u52A0\u62FF\u5927 01 \u7EBF\u8DEF3-1A"
   - "\u5370\u5EA6-1A"
   - "\u5370\u5EA6-1B"
+  - "\u53F0\u6E7EHINET 04 \u7EBF\u8DEF3-1A"
   - "\u5927\u962A 01-1A"
   - "\u5927\u962A 01-1B"
   - "\u5FB7\u56FD 01-1A"
   - "\u5FB7\u56FD 01-1B"
-  - "\u65B0\u52A0\u5761 04 \u7EBF\u8DEF3-1B"
+  - "\u65B0\u52A0\u5761 02 \u7EBF\u8DEF3-1A"
   - "\u65B0\u52A0\u576101-1B"
   - "\u65B0\u52A0\u576102-1B"
   - "\u65B0\u52A0\u576103-1B"
@@ -2403,29 +2391,27 @@ proxy-groups:
   - "\u65E5\u672C 01 \u76F4\u8FDE-1B"
   - "\u65E5\u672C 02 \u76F4\u8FDE-1A"
   - "\u65E5\u672C 02 \u76F4\u8FDE-1B"
-  - "\u6CF0\u56FD 01 \u7EBF\u8DEF3-1A"
+  - "\u6CF0\u56FD 01 \u7EBF\u8DEF3-1B"
   - "\u6FB3\u6D32-1A"
   - "\u6FB3\u6D32-1B"
-  - "\u7F8E\u56FD-1A"
-  - "\u7F8E\u56FD-1B"
   - "\u7F8E\u56FD 01 \u76F4\u8FDE-1A"
   - "\u7F8E\u56FD 01 \u76F4\u8FDE-1B"
-  - "\u7F8E\u56FD 03 \u7EBF\u8DEF3-1B"
+  - "\u7F8E\u56FD 01 \u7EBF\u8DEF3-1A"
+  - "\u7F8E\u56FD3-1B"
   - "\u82F1\u56FD-1A"
   - "\u82F1\u56FD-1B"
   - "\u82F1\u56FD 03 \u7EBF\u8DEF3-1A"
-  - "\u82F1\u56FD 04 \u7EBF\u8DEF3-1B"
   - "\u8377\u5170 X0.5-1A"
   - "\u8377\u5170 X0.5-1B"
   - "\u83F2\u5F8B\u5BBE 01 \u7EBF\u8DEF3-1A"
   - "\u8D8A\u5357-1A"
   - "\u8D8A\u5357-1B"
-  - "\u8D8A\u5357 01 \u7EBF\u8DEF3-1A"
-  - "\u8D8A\u5357 01 \u7EBF\u8DEF3-1B"
   - "\u97E9\u56FD 01-1A"
   - "\u97E9\u56FD 01-1B"
   - "\u9999\u6E2F 01 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2F 01 \u7EBF\u8DEF1-1B"
+  - "\u9999\u6E2F 03 \u7EBF\u8DEF1-1A"
+  - "\u9999\u6E2F 03 \u7EBF\u8DEF1-1B"
   - "\u9999\u6E2F 1 LV0-HK-1A"
   - "\u9999\u6E2F 1 LV0-HK-1B"
   - "\u9999\u6E2F-HK-1-1A"
@@ -2436,13 +2422,18 @@ proxy-groups:
   - "\u9999\u6E2F03-1B"
   - "\u9999\u6E2F04-1B"
   - "\u9999\u6E2F05-1B"
+  - "\u9999\u6E2FF1 01 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2FF1 01 \u7EBF\u8DEF1-1B"
   - "\u9999\u6E2FF1 02 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2FF1 02 \u7EBF\u8DEF1-1B"
+  - "\u9999\u6E2FF1 03 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2FF1 03 \u7EBF\u8DEF1-1B"
   - "\u9999\u6E2FF1 04 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2FF1 04 \u7EBF\u8DEF1-1B"
+  - "\u7F8E\u56FD2-1C"
   - "\u9999\u6E2F01-1C"
+  - "\u9999\u6E2F3-1C"
+  - "\u7F8E\u56FD1-1D"
   - "\u53F0\u6E7E-1B"
   - "\u53F0\u6E7E-1C"
   - "\u53F0\u6E7E-1D"
@@ -2466,6 +2457,7 @@ proxy-groups:
   - "\u9999\u6E2F-1C"
   - "\u9999\u6E2F-1D"
   - "\u9999\u6E2F-1E"
+  - "\u9999\u6E2F-1F"
   - "\u9999\u6E2F-1G"
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2481,17 +2473,22 @@ proxy-groups:
   - "36\u6089\u5C3CAMD-VMESS"
   - "55\u963F\u4EC0\u672CARM"
   - "59\u6625\u5DDDAMD2"
+  - "AU | \u6FB3\u6D3201"
   - "A\u53F0\u6E7E"
   - "G\u7F8E\u56FD-\u514D\u8D39"
+  - "HK | \u9999\u6E2F LB"
   - "HK | \u9999\u6E2F01"
+  - "HK | \u9999\u6E2F02"
   - "HK | \u9999\u6E2F03"
   - "HP | \u83F2\u5F8B\u5BBE01"
+  - "JP | \u65E5\u672C LB"
   - "JP | \u65E5\u672C01"
   - "JP | \u65E5\u672C02"
   - "JP | \u65E5\u672C03"
   - "KR | \u97E9\u56FD01"
   - "PK | \u5DF4\u57FA\u65AF\u576601"
   - "RU | \u4FC4\u7F57\u65AF01"
+  - "SG | \u65B0\u52A0\u5761 LB"
   - "SG | \u65B0\u52A0\u576101"
   - "SG | \u65B0\u52A0\u576102"
   - "SG | \u65B0\u52A0\u576103"
@@ -2509,13 +2506,13 @@ proxy-groups:
   - "TW-\u677F\u68652-4"
   - "TW-\u6843\u56ED1-1"
   - "TW-\u6843\u56ED1-2"
-  - "TW|\u53F0\u7063HINET-B"
+  - U9-CBM
   - "UK | \u82F1\u56FD01"
   - "US | \u7F8E\u56FD01"
   - "US | \u7F8E\u56FD02"
-  - US-SNY
   - "\u4E13\u7EBFVIP1|1X \u4E4C\u514B\u5170"
   - "\u4E13\u7EBFVIP1|1X \u4FC4\u7F57\u65AF"
+  - "\u4E13\u7EBFVIP1|1X \u5370\u5EA6\u5C3C\u897F\u4E9A"
   - "\u4E13\u7EBFVIP1|1X \u53F0\u6E7E1"
   - "\u4E13\u7EBFVIP1|1X \u53F0\u6E7E2"
   - "\u4E13\u7EBFVIP1|1X \u571F\u8033\u5176"
@@ -2555,7 +2552,6 @@ proxy-groups:
   - "\u4E1C\u4EAC10"
   - "\u4E3B"
   - "\u4F0A\u65AF\u5766\u5E03\u5C1401"
-  - "\u51E4\u51F0\u57CE03"
   - "\u53F0\u531701"
   - "\u53F0\u531702"
   - "\u53F0\u531703"
@@ -2573,23 +2569,23 @@ proxy-groups:
   - "\u65B0\u52A0\u576104"
   - "\u65B0\u52A0\u576105"
   - "\u65B0\u52A0\u576106"
-  - "\u65B0\u52A0\u5761B \u4E3B\u529B\u96A7\u9053 1X"
   - "\u65B0\u52A0\u5761|DIRECT"
-  - "\u65E0\u4EFB\u4F55\u6280\u672F\u652F\u6301"
   - "\u65E5\u672C|DIRECT"
   - "\u6CD5\u5170\u514B\u798F01"
   - "\u6CD5\u5170\u514B\u798F02"
-  - "\u6D1B\u6749\u77F604"
   - "\u6D1B\u6749\u77F605"
   - "\u73ED\u52A0\u7F57\u5C1401"
-  - "\u7F8E\u56FD-01"
+  - "\u7F8E\u56FD01 | 1X"
+  - "\u7F8E\u56FD4"
+  - "\u7F8E\u56FD5"
+  - "\u7F8E\u56FD6"
+  - "\u7F8E\u56FD7"
   - "\u7F8E\u56FD|DIRECT"
   - "\u8003\u6587\u578201-BBC\u4F18\u5316"
   - "\u8003\u6587\u578202-BBC\u4F18\u5316"
   - "\u83AB\u65AF\u79D101"
   - "\u963F\u59C6\u65AF\u7279\u4E3901"
   - "\u97E9\u56FD-A"
-  - "\u97E9\u56FDA"
   - "\u9996\u5C1401"
   - "\u9999\u6E2F01 | HKBN | 1X"
   - "\u9999\u6E2F06"
@@ -2597,14 +2593,7 @@ proxy-groups:
   - "\u9999\u6E2F08"
   - "\u9999\u6E2F09"
   - "\u9999\u6E2F10"
-  - "02 \u9650 30 MBS-1A"
-  - "02 \u9650 30 MBS-1B-GPT"
-  - "HK | \u9999\u6E2F LB-1A"
-  - "HK | \u9999\u6E2F LB-1B"
-  - "JP | \u65E5\u672C LB-1A"
-  - "JP | \u65E5\u672C LB-1B"
-  - "SG | \u65B0\u52A0\u5761 LB-1A"
-  - "SG | \u65B0\u52A0\u5761 LB-1B"
+  - "01 \u9650 30 MBS-1B"
   - TEMPORARILY-WORDVLOG-1A
   - TEMPORARILY-WORDVLOG-1B
   - UK-LONDON-02-1A
@@ -2619,16 +2608,15 @@ proxy-groups:
   - US-NEWYORK3-1B
   - US-NEWYORK5-1A
   - US-NEWYORK5-1B
-  - US-PHILADELPHIA-IPV6-1A
-  - US-PHILADELPHIA-IPV6-1B
   - "\u52A0\u62FF\u5927 01 \u7EBF\u8DEF3-1A"
   - "\u5370\u5EA6-1A"
   - "\u5370\u5EA6-1B"
+  - "\u53F0\u6E7EHINET 04 \u7EBF\u8DEF3-1A"
   - "\u5927\u962A 01-1A"
   - "\u5927\u962A 01-1B"
   - "\u5FB7\u56FD 01-1A"
   - "\u5FB7\u56FD 01-1B"
-  - "\u65B0\u52A0\u5761 04 \u7EBF\u8DEF3-1B"
+  - "\u65B0\u52A0\u5761 02 \u7EBF\u8DEF3-1A"
   - "\u65B0\u52A0\u576101-1B"
   - "\u65B0\u52A0\u576102-1B"
   - "\u65B0\u52A0\u576103-1B"
@@ -2636,29 +2624,27 @@ proxy-groups:
   - "\u65E5\u672C 01 \u76F4\u8FDE-1B"
   - "\u65E5\u672C 02 \u76F4\u8FDE-1A"
   - "\u65E5\u672C 02 \u76F4\u8FDE-1B"
-  - "\u6CF0\u56FD 01 \u7EBF\u8DEF3-1A"
+  - "\u6CF0\u56FD 01 \u7EBF\u8DEF3-1B"
   - "\u6FB3\u6D32-1A"
   - "\u6FB3\u6D32-1B"
-  - "\u7F8E\u56FD-1A"
-  - "\u7F8E\u56FD-1B"
   - "\u7F8E\u56FD 01 \u76F4\u8FDE-1A"
   - "\u7F8E\u56FD 01 \u76F4\u8FDE-1B"
-  - "\u7F8E\u56FD 03 \u7EBF\u8DEF3-1B"
+  - "\u7F8E\u56FD 01 \u7EBF\u8DEF3-1A"
+  - "\u7F8E\u56FD3-1B"
   - "\u82F1\u56FD-1A"
   - "\u82F1\u56FD-1B"
   - "\u82F1\u56FD 03 \u7EBF\u8DEF3-1A"
-  - "\u82F1\u56FD 04 \u7EBF\u8DEF3-1B"
   - "\u8377\u5170 X0.5-1A"
   - "\u8377\u5170 X0.5-1B"
   - "\u83F2\u5F8B\u5BBE 01 \u7EBF\u8DEF3-1A"
   - "\u8D8A\u5357-1A"
   - "\u8D8A\u5357-1B"
-  - "\u8D8A\u5357 01 \u7EBF\u8DEF3-1A"
-  - "\u8D8A\u5357 01 \u7EBF\u8DEF3-1B"
   - "\u97E9\u56FD 01-1A"
   - "\u97E9\u56FD 01-1B"
   - "\u9999\u6E2F 01 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2F 01 \u7EBF\u8DEF1-1B"
+  - "\u9999\u6E2F 03 \u7EBF\u8DEF1-1A"
+  - "\u9999\u6E2F 03 \u7EBF\u8DEF1-1B"
   - "\u9999\u6E2F 1 LV0-HK-1A"
   - "\u9999\u6E2F 1 LV0-HK-1B"
   - "\u9999\u6E2F-HK-1-1A"
@@ -2669,13 +2655,18 @@ proxy-groups:
   - "\u9999\u6E2F03-1B"
   - "\u9999\u6E2F04-1B"
   - "\u9999\u6E2F05-1B"
+  - "\u9999\u6E2FF1 01 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2FF1 01 \u7EBF\u8DEF1-1B"
   - "\u9999\u6E2FF1 02 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2FF1 02 \u7EBF\u8DEF1-1B"
+  - "\u9999\u6E2FF1 03 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2FF1 03 \u7EBF\u8DEF1-1B"
   - "\u9999\u6E2FF1 04 \u7EBF\u8DEF1-1A"
   - "\u9999\u6E2FF1 04 \u7EBF\u8DEF1-1B"
+  - "\u7F8E\u56FD2-1C"
   - "\u9999\u6E2F01-1C"
+  - "\u9999\u6E2F3-1C"
+  - "\u7F8E\u56FD1-1D"
   - "\u53F0\u6E7E-1B"
   - "\u53F0\u6E7E-1C"
   - "\u53F0\u6E7E-1D"
@@ -2699,6 +2690,7 @@ proxy-groups:
   - "\u9999\u6E2F-1C"
   - "\u9999\u6E2F-1D"
   - "\u9999\u6E2F-1E"
+  - "\u9999\u6E2F-1F"
   - "\u9999\u6E2F-1G"
   - DIRECT
   type: select
